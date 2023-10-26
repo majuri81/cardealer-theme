@@ -1,0 +1,2190 @@
+# Translation of Car Dealer Front Submission in Azerbaijani
+# This file is distributed under the same license as the Car Dealer Front Submission package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Dealer - Frontend Submission 3.10.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/2. cdfs-dev\n"
+"POT-Creation-Date: 2023-07-27 11:13:24+00:00\n"
+"PO-Revision-Date: 2023-07-27 16:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: Potenza Global Solutions http://www.potenzaglobalsolutions."
+"com/\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n:1,2;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+
+#: cardealer-frontend-submission.php:69 cardealer-frontend-submission.php:72
+msgid ""
+"Please install/activate Car Dealer Helper Library to enable feature/"
+"functionality."
+msgstr ""
+
+#: cardealer-frontend-submission.php:111
+msgid "Car Dealer Helper Library"
+msgstr ""
+
+#: cardealer-frontend-submission.php:129
+msgid ""
+"Below required plugins are not installed or activated. Please install/"
+"activate to enable feature/functionality."
+msgstr ""
+
+#: cardealer-frontend-submission.php:131
+msgid ""
+"Below required plugin is not installed or activated. Please install/activate "
+"to enable feature/functionality."
+msgstr ""
+
+#: cardealer-frontend-submission.php:160
+msgid "Add Vehicle"
+msgstr "Vasitə əlavə edin"
+
+#. translators: %s: url
+#: includes/class-cdfs-cache-helper.php:65
+msgid ""
+"In order for <strong>database caching</strong> to work with Car dealer "
+"Frontend Submission, you must add %1$s to the \"Ignored Query Strings\" "
+"option in <a href=\"%2$s\">W3 Total Cache settings</a>."
+msgstr ""
+
+#: includes/class-cdfs-cars-form-handler.php:112
+msgid "Year"
+msgstr "İl"
+
+#: includes/class-cdfs-cars-form-handler.php:113
+msgid "Make"
+msgstr "Tərtib et"
+
+#: includes/class-cdfs-cars-form-handler.php:114
+#: includes/class-cdfs-front-end-scripts.php:113
+msgid "Model"
+msgstr "Model"
+
+#: includes/class-cdfs-cars-form-handler.php:115
+msgid "Regular Price"
+msgstr "Daimi qiymət"
+
+#: includes/class-cdfs-cars-form-handler.php:451
+msgid "New Vehicle Added!"
+msgstr "Yeni Vasitə Əlavə edildi!"
+
+#: includes/class-cdfs-cars.php:43
+msgid "Cheating! Please login and try again."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:52
+msgid "The site is currently in demo mode, you can't perform any action."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:66
+msgid "Vehicle not found."
+msgstr "Maşın tapılmadı."
+
+#: includes/class-cdfs-cars.php:73
+#: includes/class-cdfs-woocommerce-integration.php:233
+msgid "Invalid vehicle ID."
+msgstr "Yanlış avtomobil nömrəsi."
+
+#: includes/class-cdfs-cars.php:98 includes/class-cdfs-cars.php:213
+msgid "Invalid action."
+msgstr "Yanlış hərəkət."
+
+#: includes/class-cdfs-cars.php:105
+msgid "This vehicle does not belong to you."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:110
+msgid "Please provide vehicle ID."
+msgstr "Zəhmət olmasa nəqliyyat vasitəsinin şəxsiyyət vəsiqəsini göstərin."
+
+#: includes/class-cdfs-cars.php:115
+msgid "Invalid Nonce. Please refresh page and try again."
+msgstr "Yanlış Nonce. Zəhmət olmasa səhifəni yeniləyin və yenidən cəhd edin."
+
+#: includes/class-cdfs-cars.php:126
+msgid "Vehicle status is successfully set to draft."
+msgstr "Avtomobilin vəziyyəti uğurla hazırlanıb."
+
+#: includes/class-cdfs-cars.php:175
+msgid "You can not enable vehicle, please check your subscription plan!"
+msgstr ""
+
+#: includes/class-cdfs-cars.php:181
+msgid "Vehicle is successfully enabled."
+msgstr "Vasitə uğurla işə salındı."
+
+#: includes/class-cdfs-cars.php:205
+msgid "Vehicle is successfully deleted."
+msgstr "Vasitə müvəffəqiyyətlə silinir."
+
+#: includes/class-cdfs-cars.php:221
+msgid "You can not clone vehicle, please check your subscription plan!"
+msgstr ""
+
+#: includes/class-cdfs-cars.php:233
+msgid ""
+"The vehicle clone failed, could not create a copy of the vehicle. Error: %s"
+msgstr ""
+
+#: includes/class-cdfs-cars.php:242
+msgid "Car cloned successfully."
+msgstr "Avtomobil uğurla klonlandı."
+
+#: includes/class-cdfs-cars.php:266
+msgid "Vehicle empty. Please provide a valid vehicle to clone."
+msgstr ""
+"Avtomobil boşdur. Zəhmət olmasa klonlaşdırmaq üçün etibarlı bir vasitə "
+"təqdim edin."
+
+#: includes/class-cdfs-form-handler.php:70
+msgid "The site is currently in demo mode, you can't edit profile."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:117
+#: templates/user-dashboard/dashboard-sections/profile.php:22
+msgid "First name"
+msgstr "Adı"
+
+#: includes/class-cdfs-form-handler.php:118
+#: templates/user-dashboard/dashboard-sections/profile.php:28
+msgid "Last name"
+msgstr "Soyad"
+
+#: includes/class-cdfs-form-handler.php:119
+#: templates/user-dashboard/dashboard-sections/profile.php:127
+#: templates/user-dashboard/login.php:73
+msgid "Email address"
+msgstr "E-poçt ünvanı"
+
+#. translators: %s: field name
+#: includes/class-cdfs-form-handler.php:126
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:133
+#: includes/functions/cdfs-user-functions.php:232
+msgid "Please provide a valid email address."
+msgstr "Xahiş edirik düzgün bir e-poçt ünvanı yazın."
+
+#: includes/class-cdfs-form-handler.php:135
+msgid "This email address is already registered."
+msgstr "Bu e-poçt ünvanı zaten qeydiyyatdan keçmişdir."
+
+#: includes/class-cdfs-form-handler.php:141
+msgid "Please fill out all password fields."
+msgstr "Bütün parol sahələrini doldurun."
+
+#: includes/class-cdfs-form-handler.php:144
+msgid "Please enter your current password."
+msgstr "Xahiş edirik mövcud parolunuzu daxil edin."
+
+#: includes/class-cdfs-form-handler.php:147
+msgid "Please re-enter your password."
+msgstr "Şifrənizi təkrar daxil edin."
+
+#: includes/class-cdfs-form-handler.php:150
+msgid "New passwords do not match."
+msgstr "Yeni parollar uyğun gəlmir."
+
+#: includes/class-cdfs-form-handler.php:153
+msgid "Your current password is incorrect."
+msgstr "Mövcud parolunuz yanlışdır."
+
+#: includes/class-cdfs-form-handler.php:206
+msgid "Account details changed successfully."
+msgstr "Haqq-hesab məlumatları uğurla dəyişdirildi."
+
+#: includes/class-cdfs-form-handler.php:249
+msgid "The site is currently in demo mode, you can't submit the review."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:266
+#, fuzzy
+#| msgid "Please login."
+msgid "Please login to the review."
+msgstr "Giriş edin."
+
+#: includes/class-cdfs-form-handler.php:271
+msgid "Review title field is required."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:276
+msgid "Please add review content."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:281
+msgid "Please selecr recommendation."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:286
+msgid "Please select all the ratings."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:324
+#, fuzzy
+#| msgid "Car cloned successfully."
+msgid "Review added successfully."
+msgstr "Avtomobil uğurla klonlandı."
+
+#: includes/class-cdfs-form-handler.php:326
+msgid "Error in adding Review."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:378
+#, fuzzy
+#| msgid "Vehicle images uploaded successfully!!"
+msgid "Settings updated successfully."
+msgstr "Vasitə şəkilləri uğurla yükləndi!"
+
+#: includes/class-cdfs-form-handler.php:409
+#: includes/class-cdfs-form-handler.php:413
+#: includes/class-cdfs-form-handler.php:426
+#: includes/class-cdfs-form-handler.php:468
+#: includes/class-cdfs-form-handler.php:470
+#: includes/class-cdfs-form-handler.php:610
+#: includes/functions/cdfs-user-functions.php:280
+#: includes/functions/cdfs-user-functions.php:414
+#: includes/functions/cdfs-user-functions.php:432
+#: includes/functions/cdfs-user-functions.php:440
+#: includes/functions/cdfs-user-functions.php:452
+#: includes/functions/cdfs-user-functions.php:583
+#: includes/functions/cdfs-user-functions.php:600
+#: includes/functions/cdfs-user-functions.php:665
+msgid "Error:"
+msgstr "Hata:"
+
+#: includes/class-cdfs-form-handler.php:413
+msgid "Username is required."
+msgstr "İstifadəçi adı tələb olunur."
+
+#: includes/class-cdfs-form-handler.php:426
+#: includes/functions/cdfs-user-functions.php:452
+msgid "A user could not be found with this email address."
+msgstr "Bir istifadəçi bu e-poçt ünvanında tapıla bilmədi."
+
+#: includes/class-cdfs-form-handler.php:468
+#: includes/functions/cdfs-user-functions.php:502
+msgid ""
+"Please activate your account with the activation link sent to your "
+"registered mail account."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:470
+#: includes/functions/cdfs-user-functions.php:507
+msgid ""
+"Your account is waiting for admin approval. Once your account is approved by "
+"the admin, you will be able to manage vehicles."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:506
+#: includes/shortcodes/class-cdfs-shortcode-dealer-login.php:48
+msgid ""
+"Password reset link is successfully sent to your email address, please check."
+msgstr ""
+"Şifrə sıfırlama bağlantısı e-poçt ünvanınıza uğurla göndərilir, yoxlayın."
+
+#: includes/class-cdfs-form-handler.php:538
+msgid "Please enter your password."
+msgstr "Şifrənizi daxil edin."
+
+#: includes/class-cdfs-form-handler.php:542
+msgid "Passwords do not match."
+msgstr "Parollar uyğun gəlmir."
+
+#: includes/class-cdfs-form-handler.php:585
+#: includes/functions/cdfs-user-functions.php:586
+msgid "The site is currently in demo mode, registration is disabled."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:602
+msgid ""
+"Account successfully created. Please activate your account with the "
+"activation link sent to your registered mail account."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:604
+msgid ""
+"Account successfully created. Your account is waiting for admin approval."
+msgstr "Hesab uğurla yaradıldı. Hesabınız admin təsdiqini gözləyir."
+
+#: includes/class-cdfs-form-handler.php:606
+msgid "Account successfully created."
+msgstr "Hesab uğurla yaradıldı."
+
+#: includes/class-cdfs-front-end-scripts.php:122
+#: includes/functions/cdfs-cars-functions.php:141
+#: includes/functions/cdfs-cars-functions.php:199
+#: includes/functions/cdfs-cars-functions.php:315
+#: includes/functions/cdfs-cars-functions.php:370
+#, fuzzy
+#| msgid "Vehicle Images"
+msgid "Select %s"
+msgstr "Vasitə şəkilləri"
+
+#: includes/class-cdfs-front-end-scripts.php:123
+#: includes/user-dashboard/user-dashboard-functions.php:648
+#: templates/cars/cars-templates/car-actions.php:71
+msgid "Alert"
+msgstr "Alert"
+
+#: includes/class-cdfs-front-end-scripts.php:124
+msgid "Error!"
+msgstr "Səhv!"
+
+#: includes/class-cdfs-front-end-scripts.php:125
+msgid ""
+"This will delete without updating the vehicle. Are you sure want to delete "
+"it?"
+msgstr ""
+
+#. translators: %s: img limit
+#: includes/class-cdfs-front-end-scripts.php:127
+#, fuzzy
+#| msgid "Sorry! You can upload at most %s images."
+msgid "Sorry! You can upload at most {{limit}} images."
+msgstr "Bağışlayın! Ən çox %s şəkil yükləyə bilərsiniz."
+
+#: includes/class-cdfs-front-end-scripts.php:128
+msgid "Select a package to proceed."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:129
+msgid "No package selected. Select a package to proceed."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:130
+msgid "The file(s) [file] is not an image."
+msgstr "Fayl (lar) [fayl] bir şəkil deyil."
+
+#: includes/class-cdfs-front-end-scripts.php:132
+msgid "One or more selected files are not image."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:133
+msgid "File Type Error"
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:134
+msgid "The file [file] is not a PDF file, Please upload PDF file only."
+msgstr "Fayl [fayl] PDF fayl deyil, yalnız PDF faylını yükləyin."
+
+#: includes/class-cdfs-front-end-scripts.php:135
+msgid "File size exceeded than 4 MB."
+msgstr "Faylın ölçüsü 4 MB-dan çoxdur."
+
+#. translators: %s: file size limit text
+#: includes/class-cdfs-front-end-scripts.php:137
+msgid "One or more selected file exceeds the allowed file size limit: %s."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:138
+msgid "Image Size Error"
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:139
+msgid "Redirecting to vehicle listing page."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:140
+msgid "Processing the image files."
+msgstr ""
+
+#: includes/class-cdfs-front-end-scripts.php:141
+#, fuzzy
+#| msgid "No vehicle to edit."
+msgid "Processing vehicle data."
+msgstr "Düzenlenecek bir vasitə yoxdur."
+
+#: includes/class-cdfs-front-end-scripts.php:142
+#: includes/user-dashboard/user-dashboard-functions.php:648
+#: templates/cars/cars-templates/car-actions.php:71
+msgid "Delete"
+msgstr "Sil"
+
+#: includes/class-cdfs-review.php:35
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:7
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:19
+msgid "Customer Service"
+msgstr ""
+
+#: includes/class-cdfs-review.php:36
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:8
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:20
+msgid "Buying Process"
+msgstr ""
+
+#: includes/class-cdfs-review.php:37
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:9
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:21
+msgid "Overall Experience"
+msgstr ""
+
+#: includes/class-cdfs-review.php:40 includes/class-cdfs-review.php:42
+#, fuzzy
+#| msgid "Vehicle Review Stamps"
+msgid "Dealer Reviews"
+msgstr "Nəqliyyat vasitələrinə baxış markaları"
+
+#: includes/class-cdfs-review.php:41 includes/class-cdfs-review.php:43
+msgid "Dealer Review"
+msgstr ""
+
+#: includes/class-cdfs-review.php:44
+#, fuzzy
+#| msgid "Add New Vehicle"
+msgid "Add New"
+msgstr "Yeni Vasitə əlavə edin"
+
+#: includes/class-cdfs-review.php:45
+#, fuzzy
+#| msgid "Add New Vehicle"
+msgid "Add New Review"
+msgstr "Yeni Vasitə əlavə edin"
+
+#: includes/class-cdfs-review.php:46
+msgid "New Review"
+msgstr ""
+
+#: includes/class-cdfs-review.php:47
+msgid "Edit Review"
+msgstr ""
+
+#: includes/class-cdfs-review.php:48
+#, fuzzy
+#| msgid "Vehicle Review Stamps"
+msgid "View Review"
+msgstr "Nəqliyyat vasitələrinə baxış markaları"
+
+#: includes/class-cdfs-review.php:49
+msgid "All Reviews"
+msgstr ""
+
+#: includes/class-cdfs-review.php:50
+msgid "Search Reviews"
+msgstr ""
+
+#: includes/class-cdfs-review.php:51
+msgid "Parent Reviews:"
+msgstr ""
+
+#: includes/class-cdfs-review.php:52
+msgid "No Review found."
+msgstr ""
+
+#: includes/class-cdfs-review.php:53
+msgid "No Review found in Trash."
+msgstr ""
+
+#: includes/class-cdfs-review.php:58
+msgid "Description."
+msgstr ""
+
+#: includes/class-cdfs-review.php:417
+msgid "Content"
+msgstr ""
+
+#: includes/class-cdfs-review.php:418
+msgid "Average Rating"
+msgstr ""
+
+#: includes/class-cdfs-review.php:419
+msgid "To"
+msgstr ""
+
+#: includes/class-cdfs-review.php:420
+msgid "Date"
+msgstr ""
+
+#: includes/class-cdfs-wishlist.php:249
+#, fuzzy
+#| msgid "New Vehicle Added!"
+msgid "Vehicle added!"
+msgstr "Yeni Vasitə Əlavə edildi!"
+
+#: includes/class-cdfs-wishlist.php:260
+#, fuzzy
+#| msgid "Vehicle Details"
+msgid "Vehicle already in wishlist!"
+msgstr "Vehicle Details"
+
+#: includes/class-cdfs-woocommerce-integration.php:211
+msgid "The site is currently in demo mode, advertise is disabled."
+msgstr ""
+
+#: includes/class-cdfs-woocommerce-integration.php:218
+#, fuzzy
+#| msgid "Error, please try again."
+msgid "Unable to verify security code. Please try again."
+msgstr "Xəta, yenidən cəhd edin."
+
+#: includes/class-cdfs-woocommerce-integration.php:222
+#, fuzzy
+#| msgid "The file(s) [file] is not an image."
+msgid "This feature is not enabled."
+msgstr "Fayl (lar) [fayl] bir şəkil deyil."
+
+#: includes/class-cdfs-woocommerce-integration.php:226
+#, fuzzy
+#| msgid "Please login."
+msgid "Please log in to process this request."
+msgstr "Giriş edin."
+
+#: includes/class-cdfs-woocommerce-integration.php:230
+#, fuzzy
+#| msgid "No vehicle to edit."
+msgid "The vehicle does not exist."
+msgstr "Düzenlenecek bir vasitə yoxdur."
+
+#: includes/class-cdfs-woocommerce-integration.php:236
+#, fuzzy
+#| msgid "You are not the owner of this vehicle."
+msgid "You are not allowed to advertise this item."
+msgstr "Bu vasitənin sahibi deyilsiniz."
+
+#: includes/class-cdfs-woocommerce-integration.php:240
+msgid "This item is not valid to advertise it."
+msgstr ""
+
+#: includes/class-cdfs.php:200 includes/class-cdfs.php:405
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Hərəkət uğursuz oldu. Səhifəni yeniləyin və yenidən cəhd edin."
+
+#: includes/class-cdfs.php:331
+#, fuzzy
+#| msgid "dealer-account"
+msgid "dealer-login"
+msgstr "diler-hesab"
+
+#: includes/class-cdfs.php:332
+#, fuzzy
+#| msgid "Please login."
+msgid "Dealer Login"
+msgstr "Giriş edin."
+
+#: includes/class-cdfs.php:337
+msgid "add-car"
+msgstr ""
+
+#: includes/class-cdfs.php:338
+#: templates/user-dashboard/dashboard-sections/content-header.php:3
+msgid "Add Car"
+msgstr ""
+
+#: includes/class-cdfs.php:421 includes/class-cdfs.php:435
+msgid "Car Dealer Front End Submission Addon update"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#: includes/class-cdfs.php:421
+msgid "Your database is being updated in the background."
+msgstr "Verilənlər bazası arxa planda yenilənir."
+
+#: includes/class-cdfs.php:435
+msgid "We need to update your store database to the latest version."
+msgstr "Mağaza verilənlər bazasını ən son versiyaya yeniləmək lazımdır."
+
+#: includes/class-cdfs.php:436
+msgid "Run the updater"
+msgstr "Güncelleyici çalıştırın"
+
+#: includes/class-cdfs.php:440
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Davam etməyinizdən əvvəl verilənlər bazasını saxlamağınız şiddətlidir. "
+"Güncellemeyi şimdi çalıştırmak istediğinizden əminsinizmi?"
+
+#: includes/class-cdfs.php:454
+msgid ""
+"Car Dealer Front End Submission Addon update complete. Thank you for "
+"updating to the latest version!"
+msgstr ""
+"Avtomobil dilerinə Front End Submission Addon yeniləmə tam. Ən son versiyaya "
+"yeniləndiyiniz üçün təşəkkür edirik!"
+
+#: includes/class-cdfs.php:455
+msgid "Dismiss"
+msgstr "Çıxarın"
+
+#. translators: %1$s: version,  %2$s: update callback
+#: includes/class-cdfs.php:484
+msgid "Queuing %1$s - %2$s"
+msgstr ""
+
+#: includes/class-cdfs.php:633
+msgid "Car Dealer"
+msgstr "Avtomobil diler"
+
+#: includes/class-cdfs.php:641
+msgid "These was an error creating a role!"
+msgstr "Bunlar rolu yaradan bir səhv idi!"
+
+#: includes/functions/cdfs-cars-functions.php:30
+msgid "Add vehicle"
+msgstr "Avtomobil əlavə edin"
+
+#: includes/functions/cdfs-cars-functions.php:101
+#: includes/shortcodes/pricing.php:219
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:74
+msgid "Title"
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:104
+msgid ""
+"If the title is not entered then it will be auto-generated using Year, Make, "
+"and Model."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:150
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:85
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:65
+msgid "Yes"
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:151
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:90
+msgid "No"
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:155
+msgid "Unsold"
+msgstr "Sözsüzdür"
+
+#: includes/functions/cdfs-cars-functions.php:156
+msgid "Sold"
+msgstr "Satıldı"
+
+#: includes/functions/cdfs-cars-functions.php:483
+#: includes/functions/cdfs-cars-functions.php:506
+msgid "Found Match!"
+msgstr "Maç tapdı!"
+
+#: includes/functions/cdfs-cars-functions.php:489
+#: includes/functions/cdfs-cars-functions.php:512
+msgid "Not Found"
+msgstr "Tapılmadı"
+
+#. translators: $s: Please upload file
+#: includes/functions/cdfs-cars-functions.php:547
+msgid "Please upload file(s) with %s extension."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:596
+#: includes/functions/cdfs-cars-functions.php:640
+#: includes/functions/cdfs-cars-functions.php:756
+#: includes/functions/cdfs-cars-functions.php:1158
+#: includes/functions/cdfs-user-functions.php:404
+#: includes/functions/cdfs-user-functions.php:554
+msgid "Something went wrong!"
+msgstr "Bir şey yanlış getdi!"
+
+#: includes/functions/cdfs-cars-functions.php:621
+#: includes/functions/cdfs-cars-functions.php:1191
+msgid "Successfully dropped image!"
+msgstr "Müvəffəqiyyətlə şəkil düşdü!"
+
+#: includes/functions/cdfs-cars-functions.php:656
+#: includes/functions/cdfs-cars-functions.php:782
+#, fuzzy
+#| msgid "Vehicle images uploaded successfully!!"
+msgid "Vehicle added successfully!"
+msgstr "Vasitə şəkilləri uğurla yükləndi!"
+
+#: includes/functions/cdfs-cars-functions.php:662
+msgid "Please check captcha form."
+msgstr "Xahiş edirik captcha formasını kontrol edin."
+
+#. translators: %s: list of required fields
+#: includes/functions/cdfs-cars-functions.php:668
+msgid "Please fill required fields: %s"
+msgstr "Zəhmət olmasa tələb olunan sahələri doldurun: %s"
+
+#: includes/functions/cdfs-cars-functions.php:675
+msgid ""
+"Sorry! The limit for the selected package has been exceeded. You cannot "
+"update a car to this package."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:678
+msgid ""
+"Sorry! The limit for the selected package has been exceeded. You cannot add "
+"a new car."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:685
+msgid "Sale price should be lower then regular price"
+msgstr ""
+
+#. translators: %s: number of images
+#: includes/functions/cdfs-cars-functions.php:691
+#, fuzzy
+#| msgid "Sorry! You can upload at most %s images."
+msgid "Sorry! You can upload maximum %s image."
+msgid_plural "Sorry! You can upload maximum %s images."
+msgstr[0] "Bağışlayın! Ən çox %s şəkil yükləyə bilərsiniz."
+msgstr[1] "Bağışlayın! Ən çox %s şəkil yükləyə bilərsiniz."
+
+#: includes/functions/cdfs-cars-functions.php:697
+msgid "Vehicle data successfully saved!"
+msgstr "Vasitə məlumatları uğurla qurtardı!"
+
+#. translators: %s: list of required fields
+#: includes/functions/cdfs-cars-functions.php:705
+msgid ""
+"New values not allowed for %s, Please select the value from existing "
+"dropdown/Autocomplete"
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:711
+msgid ""
+"Make model relation enable but model is not related to make. Please enter/"
+"select model related to make."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:715
+#, fuzzy
+#| msgid "Please login."
+msgid "Please login to proceed."
+msgstr "Giriş edin."
+
+#: includes/functions/cdfs-cars-functions.php:719
+msgid "Security nonce verification failed. Try again later."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:723
+msgid "The site is currently in demo mode, You can't add/update listing."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:727
+msgid "There is an error inserting vehicle, please try again later!"
+msgstr "Vasitə qoyan bir səhv var, daha sonra yenidən cəhd edin!"
+
+#: includes/functions/cdfs-cars-functions.php:778
+msgid "Vehicle images uploaded successfully!!"
+msgstr "Vasitə şəkilləri uğurla yükləndi!"
+
+#: includes/functions/cdfs-cars-functions.php:784
+msgid "Vehicle is successfully saved!"
+msgstr "Vasitə müvəffəqiyyətlə qurtarıldı!"
+
+#. translators: $s: Following images not uploaded due to image size exceeded
+#. than
+#: includes/functions/cdfs-cars-functions.php:790
+msgid ""
+"Following images not uploaded due to image size exceeded than %1$s MB: %2$s."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:850
+#: includes/functions/cdfs-cars-functions.php:852
+#: includes/functions/cdfs-cars-functions.php:860
+#: includes/functions/cdfs-cars-functions.php:862
+#: includes/functions/cdfs-cars-functions.php:875
+msgid "Sale Price: "
+msgstr "Satış qiyməti: "
+
+#: includes/functions/cdfs-cars-functions.php:873
+msgid "Vehicle Price"
+msgstr "Nəqliyyat Qiyməti"
+
+#: includes/functions/cdfs-cars-functions.php:875
+msgid "Regular Price : "
+msgstr "Daimi Qiymət : "
+
+#: includes/functions/cdfs-cars-functions.php:976
+msgid "Vehicle published!"
+msgstr "Avtomobil nəşr olundu!"
+
+#: includes/functions/cdfs-core-functions.php:519
+msgid "Please check the the captcha form"
+msgstr "Xahiş edirik captcha formasını kontrol edin"
+
+#: includes/functions/cdfs-core-functions.php:712
+#: includes/functions/cdfs-core-functions.php:774
+#: templates/user-dashboard/dashboard-sections/subscriptions.php:43
+#: templates/user-dashboard/dashboard-sections/subscriptions.php:45
+msgid "Free"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:745
+msgid "Pay This Item"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:761
+msgid "Package Name"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:763
+msgid "Available Limit"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:764
+msgid "Image Limit"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:772
+msgid "Listing Payment"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:773
+msgid "Subscription"
+msgstr ""
+
+#: includes/functions/cdfs-core-functions.php:842
+#, fuzzy
+#| msgid "Please load image with right extension (jpg, jpeg, png and gif)"
+msgid ""
+"Please select the profile image with the right extension (jpg, jpeg, and "
+"png)."
+msgstr "Xahiş edirik sağ uzantı ilə şəkil yükləyin (jpg, jpeg, png və gif)"
+
+#: includes/functions/cdfs-core-functions.php:872
+#, fuzzy
+#| msgid "Error, please try again."
+msgid "Unable to crop image. Please try again."
+msgstr "Xəta, yenidən cəhd edin."
+
+#: includes/functions/cdfs-core-functions.php:918
+msgid "Vehicle Images"
+msgstr "Vasitə şəkilləri"
+
+#: includes/functions/cdfs-core-functions.php:923
+msgid "Vehicle Location"
+msgstr "Avtomobil Yerləşmə"
+
+#: includes/functions/cdfs-core-functions.php:928
+msgid "Vehicle Attributes"
+msgstr "Vasitə xüsusiyyətləri"
+
+#: includes/functions/cdfs-core-functions.php:933
+msgid "Vehicle Review Stamps"
+msgstr "Nəqliyyat vasitələrinə baxış markaları"
+
+#: includes/functions/cdfs-core-functions.php:938
+msgid "Vehicle PDF Brochure"
+msgstr "Nəqliyyat PDF Broşürü"
+
+#: includes/functions/cdfs-core-functions.php:943
+msgid "Additional Information"
+msgstr "Əlavə Informasiya"
+
+#: includes/functions/cdfs-core-functions.php:948
+msgid "Vehicle Excerpt"
+msgstr "Vasitə çıxarışı"
+
+#: includes/functions/cdfs-core-functions.php:953
+#, fuzzy
+#| msgid "Vehicle Images"
+msgid "Vehicle Packages"
+msgstr "Vasitə şəkilləri"
+
+#: includes/functions/cdfs-core-functions.php:1072
+msgid "%s Mb (%s Bytes)"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:19
+#, fuzzy
+#| msgid "Car Dealer Front End Submission Addon update"
+msgid "Car Dealer Frontend Submission - Acount status"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#: includes/functions/cdfs-user-functions.php:22
+#: includes/user-dashboard/user-dashboard-template-functions.php:155
+#: includes/user-meta/user-list-custom-column.php:17
+#: templates/cars/cars-listing.php:109 templates/cars/cars-listing.php:173
+#: templates/user-dashboard/dashboard-sections/items.php:33
+#: templates/user-dashboard/dashboard-sections/items.php:283
+#: templates/user-dashboard/dashboard-sections/wishlist.php:129
+msgid "Status"
+msgstr "Status"
+
+#: includes/functions/cdfs-user-functions.php:27
+#: includes/user-meta/user-list-custom-column.php:40
+#: templates/user-dashboard/dashboard-sections/subscriptions.php:47
+msgid "Active"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:28
+#: includes/user-meta/user-list-custom-column.php:40
+#: templates/user-dashboard/dashboard-sections/items.php:37
+msgid "Pending"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:42
+#: templates/user-dashboard/dashboard-sections/profile.php:81
+#, fuzzy
+#| msgid "Profile Img"
+msgid "Profile Image"
+msgstr "Profile Img"
+
+#: includes/functions/cdfs-user-functions.php:47
+#: includes/functions/cdfs-user-functions.php:86
+#: templates/user-dashboard/dashboard-sections/profile.php:83
+#: templates/user-dashboard/dashboard-sections/profile.php:104
+#, fuzzy
+#| msgid "Vehicle Images"
+msgid "Select Image"
+msgstr "Vasitə şəkilləri"
+
+#: includes/functions/cdfs-user-functions.php:48
+#: templates/user-dashboard/dashboard-sections/profile.php:86
+msgid "JPGE, PNG (Dimension: 150x150, minimum)"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:56
+msgid "Mobile"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:62
+#: templates/user-dashboard/view-profile-content/dealer-userinfo.php:54
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:70
+#, fuzzy
+#| msgid "Car Dealer Front End Submission Addon update"
+msgid "Car Dealer Frontend Submission - Profile Fields"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#: includes/functions/cdfs-user-functions.php:76
+#: templates/user-dashboard/dashboard-sections/profile.php:102
+#, fuzzy
+#| msgid "Profile Img"
+msgid "Profile Banner"
+msgstr "Profile Img"
+
+#: includes/functions/cdfs-user-functions.php:87
+#: templates/user-dashboard/dashboard-sections/profile.php:107
+msgid "JPGE, PNG (Dimension: 1140x360, minimum)"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:90
+#: includes/user-dashboard/user-dashboard-functions.php:93
+#: includes/user-dashboard/user-dashboard-template-functions.php:217
+msgid "Overview"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:96
+#: includes/user-dashboard/user-dashboard-functions.php:134
+#: includes/user-dashboard/user-dashboard-template-functions.php:269
+#, fuzzy
+#| msgid "Location:"
+msgid "Location"
+msgstr "Avtomobil Yerləşmə:"
+
+#: includes/functions/cdfs-user-functions.php:104
+#, fuzzy
+#| msgid "Car Dealer Front End Submission Addon update"
+msgid "Car Dealer Frontend Submission - Profile Fields (for Dealers)"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#: includes/functions/cdfs-user-functions.php:115
+#, fuzzy
+#| msgid "Car Dealer Front End Submission Addon update"
+msgid "Car Dealer Frontend Submission - User Settings"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#: includes/functions/cdfs-user-functions.php:118
+#: templates/user-dashboard/dashboard-sections/settings.php:22
+msgid "Show Email"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:124
+msgid "Show Phone"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:130
+#: templates/user-dashboard/dashboard-sections/settings.php:46
+msgid "Show WhatsApp"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:174
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Dealer Dashboard"
+msgstr "Dashboard"
+
+#: includes/functions/cdfs-user-functions.php:184
+msgid "\"Dealer Dashboard\" Element Settings"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:191
+msgid "Log-in Label"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:192
+msgid "Set a label to display when the user is not logged in."
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:193
+#: templates/user-dashboard/login.php:12 templates/user-dashboard/login.php:43
+msgid "Login"
+msgstr "Daxil ol"
+
+#: includes/functions/cdfs-user-functions.php:198
+msgid "Logged-in Label"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:199
+msgid "Set a label to display when the user is logged-in."
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:200
+#, fuzzy
+#| msgid "Dashboard"
+msgid "My Dashboard"
+msgstr "Dashboard"
+
+#: includes/functions/cdfs-user-functions.php:236
+msgid ""
+"An account is already registered with your email address. Please log in."
+msgstr "Hesab artıq e-poçt ünvanınızla qeydə alınıb. Xahiş edirik daxil edin."
+
+#: includes/functions/cdfs-user-functions.php:244
+msgid "Please enter a valid account username."
+msgstr "Xahiş edirik düzgün bir haqq-hesab adı daxil edin."
+
+#: includes/functions/cdfs-user-functions.php:248
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+"Hesab artıq bu istifadəçi adı ilə qeydə alınıb. Xahiş edirik başqa seçin."
+
+#: includes/functions/cdfs-user-functions.php:251
+msgid "Please enter username."
+msgstr "İstifadəçi adını daxil edin."
+
+#: includes/functions/cdfs-user-functions.php:256
+msgid "Please enter an account password."
+msgstr "Xahiş edirik bir haqq-hesab parolunu daxil edin."
+
+#: includes/functions/cdfs-user-functions.php:280
+msgid ""
+"Couldn't register you. Please contact us if you continue to have problems."
+msgstr ""
+"Sizi qeydə ala bilmədi. Problemləriniz davam edərsə, bizə müraciət edin."
+
+#: includes/functions/cdfs-user-functions.php:417
+#: includes/functions/cdfs-user-functions.php:603
+msgid "Please check captcha form!"
+msgstr "Xahiş edirik captcha formasını kontrol edin!"
+
+#: includes/functions/cdfs-user-functions.php:432
+#: includes/functions/cdfs-user-functions.php:614
+msgid "Please fill the required fields."
+msgstr "Zəhmət olmasa tələb olunan sahələri doldurun."
+
+#: includes/functions/cdfs-user-functions.php:493
+#: includes/shortcodes/class-cdfs-shortcode-add-car.php:49
+#: includes/shortcodes/class-cdfs-shortcode-dealer-login.php:52
+msgid "Please login with \"Dealer Or Customer\" account."
+msgstr "Zəhmət olmasa \"Satıcı və ya Müştəri\" hesabı ilə daxil olun."
+
+#: includes/functions/cdfs-user-functions.php:516
+msgid "Successfully logged in!"
+msgstr "Müvəffəqiyyətlə daxil oldu!"
+
+#: includes/functions/cdfs-user-functions.php:658
+#: templates/mails/mail-register-user.php:33
+msgid "You are successfully registered!"
+msgstr "Siz uğurla qeydiyyatdan keçdiniz!"
+
+#: includes/functions/cdfs-user-functions.php:692
+msgid "New Registration"
+msgstr "Yeni Qeydiyyat"
+
+#: includes/functions/cdfs-user-functions.php:750
+#: includes/functions/cdfs-user-functions.php:819
+msgid "New Dealer Registration"
+msgstr "Yeni Satıcı Qeydiyyatı"
+
+#: includes/functions/cdfs-user-functions.php:751
+msgid "Registration Success"
+msgstr "Qeydiyyat Uğurlu"
+
+#: includes/functions/cdfs-user-functions.php:820
+msgid "Registration Success."
+msgstr "Qeydiyyat Uğurlu."
+
+#: includes/functions/cdfs-user-functions.php:889
+msgid "Account activation alert."
+msgstr "Hesab aktivləşdirilməsi xəbərdarlığı."
+
+#: includes/functions/cdfs-user-functions.php:942
+msgid "Acccount Activated - DO NOT REPLY"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:1011
+msgid "Your account is already active."
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:1025
+msgid "Congratulations! Your account is activated successfully."
+msgstr "Təbrik edirik! Hesabınız uğurla aktivləşdirildi."
+
+#: includes/functions/cdfs-user-functions.php:1029
+msgid "Error! Invalid activation link."
+msgstr "Xəta! Yanlış aktivləşdirmə linki."
+
+#: includes/functions/cdfs-user-functions.php:1265
+msgid "Enter a username or email address."
+msgstr "Bir istifadəçi adını və ya e-poçt ünvanını daxil edin."
+
+#: includes/functions/cdfs-user-functions.php:1285
+#: includes/functions/cdfs-user-functions.php:1290
+msgid "Invalid username or email."
+msgstr "Yanlış istifadəçi adı və ya e-poçt."
+
+#: includes/functions/cdfs-user-functions.php:1308
+msgid "Password Reset"
+msgstr "Parolun sıfırlanması"
+
+#: includes/functions/cdfs-woocommerce-functions.php:37
+#: includes/functions/cdfs-woocommerce-functions.php:50
+msgid "e.g. 100"
+msgstr "məsələn, 100"
+
+#: includes/functions/cdfs-woocommerce-functions.php:38
+msgid "Cars Quota"
+msgstr "Avtomobil Kvota"
+
+#: includes/functions/cdfs-woocommerce-functions.php:51
+msgid "Cars Images Quota"
+msgstr "Avtomobil şəkilləri Kvota"
+
+#. translators: %s: url
+#: includes/functions/cdfs-woocommerce-functions.php:56
+msgid ""
+"Make sure your system PHP setting <strong>max_file_uploads</strong> has "
+"greater or equal value to <strong>Cars Images Quota</strong> value otherwise "
+"all image will not uploaded. Currently <strong>max_file_uploads</strong> set "
+"for <strong>%1$s</strong>"
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:188
+msgid "Pending subscription canceled due to canceled order."
+msgstr "Bekleyen abunə ləğv edilən sifariş səbəbiylə ləğv edildi."
+
+#: includes/functions/cdfs-woocommerce-functions.php:235
+msgid "Advertise for %s for %s days."
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:239
+msgid "Added to Cart"
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:243
+msgid "Pending Advertise"
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:247
+msgid "Advertised"
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:251
+msgid "Expired"
+msgstr ""
+
+#: includes/functions/cdfs-woocommerce-functions.php:255
+msgid "Cancelled"
+msgstr ""
+
+#: includes/shortcodes/class-cdfs-shortcode-dealer-login.php:57
+msgid "Your password has been reset successfully."
+msgstr "Parolanız uğurla sıfırlandı."
+
+#: includes/shortcodes/pricing.php:38
+msgid "Click Here"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:192
+msgid "Choose plan"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:199
+msgid "Custom"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:206 includes/shortcodes/pricing.php:207
+msgid "Pricing"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:212
+msgid "Potenza"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:220
+msgid "Enter pricing title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:227
+msgid "Sub Title"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:228
+msgid "Enter pricing sub title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:236
+msgid "Price"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:237
+msgid "Enter price. e.g.10.00 $"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:244
+msgid "Frequency"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:245
+msgid "Enter price. e.g.Per Month"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:252
+msgid "Features"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:253
+msgid "Add features. Add each feature on a new line."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:259
+msgid "Button Title"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:260
+msgid "Enter button title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:266
+msgid "Best Seller"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:267
+msgid "Select this checkbox to display the table as best-seller/featured."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:274
+msgid "Plan"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:275
+msgid ""
+"Select a plan or custom to set a custom for button link. Note: Work with "
+"only 'Subscriptio' plugin"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:283
+msgid "Custom Link"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:284
+msgid "Enter custom link."
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:34
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/user-dashboard/user-dashboard-functions.php:41
+msgid "My Items"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:47
+msgid "My Wishlist"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:53
+msgid "My Subscriptions"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:59
+#, fuzzy
+#| msgid "Profile Img"
+msgid "Profile"
+msgstr "Profile Img"
+
+#: includes/user-dashboard/user-dashboard-functions.php:65
+msgid "Settings"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:71
+#, fuzzy
+#| msgid "Social Profiles"
+msgid "View Profile"
+msgstr "Sosial Profillər"
+
+#: includes/user-dashboard/user-dashboard-functions.php:80
+#: templates/user-dashboard/dashboard-sections/content-header.php:12
+msgid "Logout"
+msgstr "Çıxış"
+
+#: includes/user-dashboard/user-dashboard-functions.php:103
+msgid "Listing"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:114
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:98
+msgid "Reviews"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:124
+msgid "Write a Review"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:144
+msgid "Contact"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-functions.php:516
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "İstifadəçi adı"
+
+#: includes/user-dashboard/user-dashboard-functions.php:519
+#, fuzzy
+#| msgid "Car Dealer"
+msgid "Dealer"
+msgstr "Avtomobil diler"
+
+#: includes/user-dashboard/user-dashboard-functions.php:627
+#: includes/user-dashboard/user-dashboard-functions.php:628
+#: templates/cars/cars-templates/car-actions.php:65
+msgid "Edit"
+msgstr "Düzəliş edin"
+
+#: includes/user-dashboard/user-dashboard-functions.php:658
+#: templates/cars/cars-templates/car-actions.php:76
+msgid "Enable"
+msgstr "Enable"
+
+#: includes/user-dashboard/user-dashboard-functions.php:668
+#: templates/cars/cars-templates/car-actions.php:81
+msgid "Disable"
+msgstr "Çıxarın"
+
+#: includes/user-dashboard/user-dashboard-functions.php:687
+#: templates/cars/cars-templates/car-actions.php:93
+msgid "Clone"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:11
+msgid "Viewing public profile, switch back"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:50
+msgid "Get New Plan"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:151
+msgid "Subscription ID"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:152
+msgid "Subscription/Plan"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:153
+msgid "Availaible/Limit"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:154
+msgid "Expiry"
+msgstr ""
+
+#: includes/user-dashboard/user-dashboard-template-functions.php:278
+#, fuzzy
+#| msgid "Enter vehicle location"
+msgid "Enter your location"
+msgstr "Avtomobilin yerini daxil edin"
+
+#. translators: $s: Unable to dispatch Car Dealer Front End Submission Addon
+#. Updater
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:52
+msgid ""
+"Unable to dispatch Car Dealer Front End Submission Addon Updater updater: %s"
+msgstr ""
+
+#. translators: $s: Running
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:119
+msgid "Running %s callback"
+msgstr ""
+
+#. translators: $s: Finished
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:126
+msgid "Finished %s callback"
+msgstr ""
+
+#. translators: $s: Could not find
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:133
+msgid "Could not find %s callback"
+msgstr ""
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:149
+msgid "Data update complete"
+msgstr "Data yeniləmə tamamlandı"
+
+#. translators: $d: Every
+#: includes/version_update/libraries/wp-cdfs-background-process.php:420
+msgid "Every %d minutes"
+msgstr ""
+
+#: templates/cars/cars-add.php:58
+msgid "Please login."
+msgstr "Giriş edin."
+
+#: templates/cars/cars-add.php:66
+msgid "Invalid action, try again later."
+msgstr "Yanlış hərəkət, daha sonra yenidən cəhd edin."
+
+#: templates/cars/cars-add.php:77
+msgid "You are not the owner of this vehicle."
+msgstr "Bu vasitənin sahibi deyilsiniz."
+
+#: templates/cars/cars-add.php:81
+msgid "No vehicle to edit."
+msgstr "Düzenlenecek bir vasitə yoxdur."
+
+#: templates/cars/cars-add.php:123
+#, fuzzy
+#| msgid "Vehicle Details"
+msgid "Add Vehicle Details"
+msgstr "Vehicle Details"
+
+#: templates/cars/cars-add.php:209
+msgid "Update Details"
+msgstr "Məlumatları yeniləyin"
+
+#: templates/cars/cars-add.php:209
+msgid "Submit Details"
+msgstr "Ətraflı göndərin"
+
+#: templates/cars/cars-listing.php:85
+#: templates/cars/cars-templates/car-actions.php:61
+msgid "Gallery"
+msgstr "Qalereya"
+
+#: templates/cars/cars-listing.php:120
+msgid "Location:"
+msgstr "Avtomobil Yerləşmə:"
+
+#: templates/cars/cars-listing.php:167
+#: templates/user-dashboard/dashboard-sections/items.php:195
+#: templates/user-dashboard/dashboard-sections/wishlist.php:45
+msgid "Details"
+msgstr "Ətraflı məlumat"
+
+#: templates/cars/cars-listing.php:188
+msgid "No vehicles added."
+msgstr "Vasitə əlavə olunmadı."
+
+#: templates/cars/cars-templates/car-actions.php:35
+msgid "View"
+msgstr "Görünüş"
+
+#: templates/cars/cars-templates/car-actions.php:48
+#: templates/cars/cars-templates/car-actions.php:53
+msgid "Compare"
+msgstr "Müqayisə et"
+
+#: templates/cars/cars-templates/car-additional-info.php:111
+#: templates/cars/cars-templates/car-additional-info.php:113
+msgid "Other"
+msgstr "Digər"
+
+#: templates/cars/cars-templates/car-additional-info.php:121
+msgid "Enter options by comma separated"
+msgstr "Virgülle ayrılmış variantları daxil edin"
+
+#: templates/cars/cars-templates/car-attributes-important.php:119
+#: templates/cars/cars-templates/car-attributes.php:103
+msgid "Enter"
+msgstr "Daxil edin"
+
+#: templates/cars/cars-templates/cars-image-gallery.php:23
+msgid "Upload Images"
+msgstr "Şəkillər yükləyin"
+
+#. translators: %1$s: Image Upload Limit
+#: templates/cars/cars-templates/cars-image-gallery.php:26
+msgid "(Upload Limit: %1$s)"
+msgstr ""
+
+#: templates/cars/cars-templates/cars-image-gallery.php:33
+msgid "Drag and drop images here, <span>OR</span>"
+msgstr ""
+
+#: templates/cars/cars-templates/cars-image-gallery.php:35
+msgid "Choose Files"
+msgstr ""
+
+#. translators: %1$s: Image size limit mb, %2$s: Image size limit bytes
+#: templates/cars/cars-templates/cars-image-gallery.php:42
+msgid "Image Size Limit: %1$s Mb (%2$s Bytes)"
+msgstr ""
+
+#: templates/cars/cars-templates/cars-location-admin-notice.php:4
+msgid ""
+"The Google Maps API key is not provided. Please make sure that Google Maps "
+"API keys have been added to the <a href=\"%1$s\" target=\"_blank\">Theme "
+"Options > Google API Settings > \"Google Maps API Key\"</a> field. Also, "
+"ensure that the API Account and API Keys are configured and working properly."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-location-admin-notice.php:5
+msgid ""
+"<b>Note</b>: This information will be visible only to administrators. No "
+"visitors will see this notice."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-location.php:56
+msgid "Enter vehicle location"
+msgstr "Avtomobilin yerini daxil edin"
+
+#: templates/cars/cars-templates/cars-packages.php:144
+msgid "Pay this item for %s for %s days."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-packages.php:150
+msgid "Editing this vehicle will be charged as new entry."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-packages.php:156
+#: templates/user-dashboard/dashboard-sections/subscriptions.php:52
+msgid "N/A"
+msgstr ""
+
+#: templates/cars/cars-templates/cars-pdf-brochure.php:22
+msgid "Upload Brochure"
+msgstr "Broşürü yükləyin"
+
+#: templates/cars/cars-templates/cars-pdf-brochure.php:33
+msgid "PDF Brochure"
+msgstr "PDF Broşürü"
+
+#: templates/cars/cars-templates/cars-review-stamps.php:32
+msgid "Review Stamp Logo %d"
+msgstr ""
+
+#: templates/cars/cars-templates/cars-review-stamps.php:53
+msgid "Review Stamp Link %d"
+msgstr ""
+
+#. translators: %s: author name
+#: templates/mails/mail-add-car-admin-notification.php:20
+msgid "Hello %s, New vehicle was added by Dealer!"
+msgstr ""
+
+#: templates/mails/mail-add-car-admin-notification.php:24
+msgid "Following are the Details:"
+msgstr "Aşağıdakı məlumatlar:"
+
+#. translators: %s: dealer name
+#: templates/mails/mail-add-car-admin-notification.php:29
+msgid "Dealer Name: %s"
+msgstr ""
+
+#. translators: %s: dealer emial
+#. translators: %s: user email
+#: templates/mails/mail-add-car-admin-notification.php:35
+#: templates/mails/mail-register-user.php:40
+#: templates/mails/mail-register-user.php:169
+#: templates/mails/mail-register-user.php:191
+msgid "Email: %s"
+msgstr ""
+
+#: templates/mails/mail-add-car-admin-notification.php:39
+#: templates/mails/mail-dealer-publish-notification.php:30
+msgid "Vehicle Details"
+msgstr "Vehicle Details"
+
+#: templates/mails/mail-add-car-admin-notification.php:45
+#: templates/mails/mail-dealer-publish-notification.php:36
+#: templates/mails/mail-register-user.php:201
+msgid "Regards,"
+msgstr "Hörmətlə,"
+
+#. translators: %s: author name
+#: templates/mails/mail-dealer-publish-notification.php:20
+msgid ""
+"Hello %1$s, Your vehicle has been successfully approved and published by "
+"Admin(%2$s)!"
+msgstr ""
+
+#: templates/mails/mail-dealer-publish-notification.php:24
+msgid "Following is the vehicle link:"
+msgstr "Avtomobilin bağlantısı budur:"
+
+#. translators: %s: user name
+#: templates/mails/mail-register-user.php:30
+msgid "Hello %s, "
+msgstr ""
+
+#: templates/mails/mail-register-user.php:34
+#, fuzzy
+#| msgid "Account details"
+msgid "Your account details:"
+msgstr "Haqq-hesab məlumatları"
+
+#. translators: %s: username
+#. translators: %s: user name
+#. translators: %s: user name
+#: templates/mails/mail-register-user.php:38
+#: templates/mails/mail-register-user.php:167
+#: templates/mails/mail-register-user.php:189
+#: templates/mails/mail-reset-psw-link.php:24
+msgid "Username: %s"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:43
+msgid ""
+"To activate your account please click on the activation link below or copy "
+"the activation link and open it in a browser."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:44
+msgid "Activation Link"
+msgstr ""
+
+#. translators: %s: user name
+#: templates/mails/mail-register-user.php:53
+msgid "Hello %s, Your account is successfully registered and activated!"
+msgstr "Salam %s, Hesabınız uğurla qeydiyyatdan keçdi və aktivləşdirildi!"
+
+#: templates/mails/mail-register-user.php:57
+#: templates/mails/mail-register-user.php:88
+#: templates/mails/mail-register-user.php:119
+#: templates/mails/mail-register-user.php:141
+msgid "Following are the details: "
+msgstr "Detallar aşağıdakılardır: "
+
+#. translators: %s: user name
+#: templates/mails/mail-register-user.php:62
+#: templates/mails/mail-register-user.php:93
+#: templates/mails/mail-register-user.php:124
+#: templates/mails/mail-register-user.php:146
+msgid "Username: %s "
+msgstr "İstifadəçi adı: %s "
+
+#. translators: %s: user email
+#: templates/mails/mail-register-user.php:68
+#: templates/mails/mail-register-user.php:99
+#: templates/mails/mail-register-user.php:130
+#: templates/mails/mail-register-user.php:152
+msgid "Email: %s "
+msgstr "E -poçt: %s "
+
+#. translators: %s: user name
+#: templates/mails/mail-register-user.php:78
+#: templates/mails/mail-register-user.php:109
+#: templates/mails/mail-register-user.php:181
+msgid "Hello %s,"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:82
+msgid ""
+"Your account is successfully registered with us. Your account status is "
+"pending for admin approval!"
+msgstr ""
+"Hesabınız bizimlə uğurla qeydiyyatdan keçdi. Hesabınızın statusu admin "
+"tərəfindən təsdiqlənmək üçün gözləyir!"
+
+#: templates/mails/mail-register-user.php:85
+msgid "Once admin approves your account, you can able to add vehicle etc."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:113
+msgid "Your account is now approved and activated by admin."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:116
+msgid "Now you can able to add a vehicle and manage the profile etc."
+msgstr "İndi bir vasitə əlavə edə və profili idarə edə bilərsiniz."
+
+#: templates/mails/mail-register-user.php:138
+msgid "Hello, New user is registered! "
+msgstr "Salam Yeni istifadəçi qeydiyyatdan keçdi! "
+
+#: templates/mails/mail-register-user.php:156
+msgid "Role: Car Dealer "
+msgstr "Vəzifə: Avtomobil Satıcısı "
+
+#: templates/mails/mail-register-user.php:162
+msgid "Hello,"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:163
+msgid "A user account has been activated."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:164
+#: templates/mails/mail-register-user.php:185
+#, fuzzy
+#| msgid "Account details"
+msgid "Account Details:"
+msgstr "Haqq-hesab məlumatları"
+
+#. translators: %s: User role
+#: templates/mails/mail-register-user.php:171
+#: templates/mails/mail-register-user.php:193
+msgid "Role: %s"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:184
+#, fuzzy
+#| msgid "Hello %s, Your account is successfully registered and activated!"
+msgid "Your account is successfully activated!"
+msgstr "Salam %s, Hesabınız uğurla qeydiyyatdan keçdi və aktivləşdirildi!"
+
+#: templates/mails/mail-reset-psw-link.php:19
+msgid ""
+"This is the mail regarding password request. Please check the following "
+"details:"
+msgstr ""
+"Bu, parol tələbi ilə bağlıdır. Xahiş edirik aşağıdakı məlumatları nəzərdən "
+"keçirin:"
+
+#: templates/mails/mail-reset-psw-link.php:28
+msgid "To reset your password, visit the following address:"
+msgstr "Şifrənizi yenidən qurmaq üçün aşağıdakı ünvana müraciət edin:"
+
+#: templates/mails/mail-reset-psw-link.php:44
+msgid "Click here to reset your password"
+msgstr "Şifrənizi sıfırlamaq üçün bura vurun"
+
+#: templates/my-user-account/form-forgot-password.php:19
+#, fuzzy
+#| msgid "Password"
+msgid "Reset Password"
+msgstr "Şifrə"
+
+#: templates/my-user-account/form-forgot-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Şifrənizi itirmişdinizmi? Xahiş edirik istifadəçi adınızı və ya e-poçt "
+"ünvanınızı daxil edin. E-poçt vasitəsilə yeni bir parol yaratmaq üçün bir "
+"link alırsınız."
+
+#: templates/my-user-account/form-forgot-password.php:28
+msgid "Username or email"
+msgstr "İstifadəçi adı və ya E-poçt"
+
+#: templates/my-user-account/form-forgot-password.php:44
+msgid "Send reset password link"
+msgstr "Şifrə sıfırlama bağlantısını göndərin"
+
+#: templates/my-user-account/form-reset-user-password.php:20
+msgid "Enter a new password below."
+msgstr "Aşağıdakı yeni bir parol daxil edin."
+
+#: templates/my-user-account/form-reset-user-password.php:23
+#: templates/user-dashboard/dashboard-sections/profile.php:211
+msgid "New password"
+msgstr "Yeni şifrə"
+
+#: templates/my-user-account/form-reset-user-password.php:27
+msgid "Re-enter new password"
+msgstr "Yeni parol yenidən daxil edin"
+
+#: templates/my-user-account/form-reset-user-password.php:46
+msgid "Save"
+msgstr "Yadda saxla"
+
+#: templates/my-user-account/user-details-car-page.php:24
+msgid "Welcome"
+msgstr "Xoş gəldiniz"
+
+#: templates/my-user-account/user-details-car-page.php:27
+msgid "Logout?"
+msgstr "Çıxış?"
+
+#: templates/user-dashboard/dashboard-sections/items.php:36
+msgid "All"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/items.php:38
+msgid "Draft"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/items.php:39
+msgid "Publish"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/items.php:97
+#, fuzzy
+#| msgid "Invalid action."
+msgid "Invalid"
+msgstr "Yanlış hərəkət."
+
+#: templates/user-dashboard/dashboard-sections/items.php:127
+msgid "Item Views"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/items.php:295
+#, fuzzy
+#| msgid "No vehicles added."
+msgid "No vehicles available."
+msgstr "Vasitə əlavə olunmadı."
+
+#: templates/user-dashboard/dashboard-sections/items.php:305
+#: templates/user-dashboard/view-profile-content/tab-listing.php:96
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:139
+msgid "Previous"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/items.php:313
+#: templates/user-dashboard/view-profile-content/tab-listing.php:106
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:149
+msgid "Next"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/profile.php:20
+#, fuzzy
+#| msgid "Additional Information"
+msgid "Personal Information"
+msgstr "Əlavə Informasiya"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:55
+#: templates/user-dashboard/login.php:114
+#, fuzzy
+#| msgid "Vehicle Images"
+msgid "Select option"
+msgstr "Vasitə şəkilləri"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:85
+#: templates/user-dashboard/dashboard-sections/profile.php:106
+msgid "No file selected"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/profile.php:122
+#, fuzzy
+#| msgid "Additional Information"
+msgid "Contact/Other Information"
+msgstr "Əlavə Informasiya"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:133
+msgid "Phone"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/profile.php:139
+msgid "WhatsApp Number"
+msgstr ""
+
+#. translators: %s: WhatsApp Link
+#: templates/user-dashboard/dashboard-sections/profile.php:146
+msgid "Enter WhatsApp URL. Please add WhatsApp link in the below format:%s"
+msgstr ""
+
+#. translators: %s: WhatsApp Link
+#: templates/user-dashboard/dashboard-sections/profile.php:153
+msgid ""
+"Please refer to the below document for detailed inforamtion about WhatsApp's "
+"\"click to chat\" link.%s"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/profile.php:154
+msgid "How to use click to chat"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/profile.php:174
+msgid "Social Profiles"
+msgstr "Sosial Profillər"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:201
+msgid "Password change"
+msgstr "Şifrə dəyişikliyi"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:204
+#, fuzzy
+#| msgid "New password"
+msgid "Current password"
+msgstr "Yeni şifrə"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:207
+#: templates/user-dashboard/dashboard-sections/profile.php:214
+#, fuzzy
+#| msgid "New password (leave blank to leave unchanged)"
+msgid "Leave blank to leave unchanged."
+msgstr "Yeni parol (dəyişmədən tərk etmək üçün boş buraxın)"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:218
+msgid "Confirm new password"
+msgstr "Yeni Şifrəni təsdiq"
+
+#: templates/user-dashboard/dashboard-sections/profile.php:245
+#: templates/user-dashboard/dashboard-sections/settings.php:77
+msgid "Save changes"
+msgstr "Dəyişiklikləri yadda saxla"
+
+#: templates/user-dashboard/dashboard-sections/settings.php:30
+msgid "Show email on the profile and other pages."
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/settings.php:34
+msgid "Show Phone Number"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/settings.php:42
+msgid "Show phone number on the profile and other pages."
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/settings.php:54
+msgid "Show WhatsApp number on the profile and other pages."
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/wishlist.php:36
+msgid "Remove from Wishlist"
+msgstr ""
+
+#: templates/user-dashboard/dashboard-sections/wishlist.php:140
+#, fuzzy
+#| msgid "No vehicles added."
+msgid "No vehicles added in wishlist."
+msgstr "Vasitə əlavə olunmadı."
+
+#: templates/user-dashboard/login.php:17
+msgid "Username or email address"
+msgstr "İstifadəçi adı və ya e-poçt ünvanı"
+
+#: templates/user-dashboard/login.php:21 templates/user-dashboard/login.php:77
+msgid "Password"
+msgstr "Şifrə"
+
+#: templates/user-dashboard/login.php:45
+msgid "Remember me"
+msgstr "Məni xatırla"
+
+#: templates/user-dashboard/login.php:53
+msgid "Lost your password?"
+msgstr "Şifrənizi itirmişdinizmi?"
+
+#: templates/user-dashboard/login.php:64 templates/user-dashboard/login.php:167
+msgid "Register"
+msgstr "Qeydiyyatdan keçin"
+
+#: templates/user-dashboard/login.php:69
+msgid "Username"
+msgstr "İstifadəçi adı"
+
+#: templates/user-dashboard/login.php:81
+msgid "User Type"
+msgstr ""
+
+#: templates/user-dashboard/login.php:83
+msgid "Select user type"
+msgstr ""
+
+#. translators: %s: url
+#: templates/user-dashboard/login.php:148
+msgid ""
+"Your personal data will be used in mapping with the vehicles you added to "
+"the website, to manage access to your account, and for other purposes "
+"described in our <a href=\"%1$s\" class=\"cd-policy-terms\" "
+"target=\"_blank\">privacy policy</a>."
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/dealer-userinfo.php:39
+msgid "Send Mail"
+msgstr ""
+
+#. translators: %s phone number.
+#: templates/user-dashboard/view-profile-content/dealer-userinfo.php:45
+msgid "Call %s"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-listing.php:119
+#, fuzzy
+#| msgid "No vehicles added."
+msgid "No vehicles found."
+msgstr "Vasitə əlavə olunmadı."
+
+#: templates/user-dashboard/view-profile-content/tab-location.php:2
+msgid "Loading..."
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:36
+msgid "Average rating"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:39
+msgid "/5"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:45
+msgid "Based on %d rating"
+msgid_plural "Based on %d ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:53
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:64
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:75
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:114
+msgid "out of 5.0"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:82
+msgid "Recommend"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-reviews.php:162
+msgid "No reviews found."
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:8
+msgid ""
+"You already submitted review. If you leave another review, previous will be "
+"updated."
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:28
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:40
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:52
+msgid "5 stars"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:29
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:41
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:53
+msgid "4 stars"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:30
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:42
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:54
+msgid "3 stars"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:31
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:43
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:55
+msgid "2 stars"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:32
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:44
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:56
+msgid "1 star"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:61
+msgid "Do you recommend this dealer?"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:69
+msgid "no"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:80
+msgid "Your Review"
+msgstr ""
+
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:90
+#, fuzzy
+#| msgid "Submit Details"
+msgid "Submit Review"
+msgstr "Ətraflı göndərin"
+
+#. translators: %s: url
+#: templates/user-dashboard/view-profile-content/tab-write-review.php:109
+msgid "Please <a href=\"%1$s\">login</a> first to post a review."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "Car Dealer Front End Submission Addon update"
+msgid "Car Dealer - Frontend Submission"
+msgstr "Avtomobil Satıcı Ön Sonu Göndərmə Addon yeniləmə"
+
+#. Author URI of the plugin/theme
+msgid "http://www.potenzaglobalsolutions.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is core plugin for themes by Potenza Global Solutions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Potenza Global Solutions"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Vehicle Images"
+#~ msgid "Select package"
+#~ msgstr "Vasitə şəkilləri"
+
+#~ msgid "Are you sure want to delete?"
+#~ msgstr "Silmək istəyirsiniz?"
+
+#, php-format
+#~ msgid "Sorry! you can upload vehicle images at most %s."
+#~ msgstr "Bağışlayın! ən çox %s avtomobil yükləyə bilərsiniz."
+
+#~ msgid "car_images"
+#~ msgstr "car_images"
+
+#~ msgid "My Dealer Account"
+#~ msgstr "Mənim diler hesabım"
+
+#, php-format
+#~ msgid "Sorry! you can add at most %s vehicles."
+#~ msgstr "Bağışlayın! ən çox %s nəqliyyat vasitəsi əlavə edə bilərsiniz."
+
+#~ msgid "My Account"
+#~ msgstr "Mənim Hesabım"
+
+#, php-format
+#~ msgid ""
+#~ "Are you sure you want to log out? <a href=\"%s\">Confirm and log out</a>"
+#~ msgstr ""
+#~ "Çıxış etmək istədiyinizə əminsiniz? <a href=\"%s\">Təsdiq edin və çıxın</"
+#~ "a>"
+
+#~ msgid "Acount status"
+#~ msgstr "Hesab vəziyyəti"
+
+#~ msgid "Following are the details:"
+#~ msgstr "Aşağıdakı məlumatlar:"
+
+#~ msgid "Role: Car Dealer"
+#~ msgstr "Vəzifə: Avtomobil Satıcısı"
+
+#~ msgid "Personal details"
+#~ msgstr "Şəxsi məlumatlar"
+
+#~ msgid "Current password (leave blank to leave unchanged)"
+#~ msgstr "Cari parol (dəyişməz tərk etmək üçün boş buraxın)"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Update Plan"
+#~ msgstr "Planı yeniləyin"
+
+#~ msgid "m-d-Y"
+#~ msgstr "mdY"
+
+#~ msgid "m-d-Y @ H:i:s"
+#~ msgstr "mdY @ H: i: s"

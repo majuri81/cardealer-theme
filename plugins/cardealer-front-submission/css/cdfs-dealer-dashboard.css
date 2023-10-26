@@ -1,0 +1,641 @@
+/*===================================================*/
+/* User Login */
+/*===================================================*/
+#cdfs_user_login {display: flex; flex-wrap: wrap;}
+#cdfs_user_login .cdfs_login,
+#cdfs_user_login .cdfs_register {background: #ffffff; height: 100%; padding: 40px; margin-bottom: 0; box-shadow: 0 5px 25px rgba(0,0,0,0.05); border-radius: 7px;}
+
+.cdfs_login-title {text-transform: capitalize; letter-spacing: 0; border-bottom: 1px solid #e8e8e8; padding-bottom: 15px; margin-bottom: 30px;}
+.cdfs-user-form .cdfs-form-row,
+.cdfs_lost_user_password .cdfs-form-row {margin-bottom: 20px;}
+.cdfs-user-form label,
+.cdfs_lost_user_password label {margin-bottom: 10px;}
+.cdfs-user-form a {text-decoration: underline;}
+.cdfs-user-form .cdfs-input-wrap input,
+.cdfs_lost_user_password .cdfs-input-wrap input {display: inline-block; width: 100%; color: inherit; padding: 12px 18px; border: 2px solid #e8e8e8; border-radius: 3px;}
+.cdfs-user-form .cdfs-input-wrap input:focus,
+.cdfs_lost_user_password .cdfs-input-wrap input:focus {border-color: #db2d2e;}
+.cdfs-user-form .cdfs-form__label-for-checkbox {margin-bottom: 0;}
+.cdfs-user-form .cdfs-form__label-for-checkbox .cdfs-form_input {margin-right: 5px;}
+.cdfs-user-form .cdfs-form-row select {border: 2px solid #e8e8e8; background: #ffffff; outline: none; border-radius: 3px;}
+.cdfs-user-form .cdfs-form-row .cdfs-button,
+.cdfs_lost_user_password .cdfs-button {padding: 10px 35px;  border-radius: 3px;}
+
+
+/* Reset Password */
+.cdfs-reset-password-form {width: 500px; margin: 0 auto; background: #ffffff; height: 100%; padding: 40px; box-shadow: 0 5px 25px rgba(0,0,0,0.05); border-radius: 7px;}
+
+/* CDFS Message */
+.cdfs-message {list-style-type: none; line-height: 24px; padding: 15px 20px; margin-bottom: 20px; border-radius: 3px;}
+.cdfs-message li:not(:last-child) {margin-bottom: 5px;}
+.cdfs-message li a {font-weight: 600; margin-left: 5px;}
+.cdfs-message.cdfs-message-success {background: #d9f5df; color: #4b9b5a; border: 1px solid #cbe1d0;}
+.cdfs-message.cdfs-message-error {background: #ffe8e8; color: #a94347; border: 1px solid #ecd3d6;}
+
+/*===================================================*/
+/* Dashboard Account */
+/*===================================================*/
+.archive.author .content-wrapper {background-color: #f9fbfc;}
+.content-wrapper .cardealer-dashboard-wrapper {display: flex; background-color: #ffffff; border-radius: 3px; box-shadow: 0 7px 30px rgba(0,0,0,0.05);}
+.public-profile-notice {margin-bottom: 15px;}
+.public-profile-notice i {padding-right: 10px;}
+.public-profile-notice a {color: #323232; font-size: 13px; font-weight: 600;}
+
+/*----------------------*/
+/* Left - Info Area */
+/*----------------------*/
+.cardealer-dashboard-wrapper .cardealer-dashboard-sidebar {width: 270px; flex:none; padding: 30px; border-right:1px solid #eeeeee;}
+
+.cardealer-dashboard-sidebar .cardealer-dashboard-user-info {border-bottom: 2px solid #e8e8e8; margin-bottom: 30px; padding-bottom: 30px;}
+.cardealer-dashboard-user-info .cardealer-dashboard-user-info--profile-img img {border: 2px solid #db2d2e; padding: 5px; width: 90px; box-shadow: 0 5px 25px rgba(0,0,0,0.06);}
+.cardealer-dashboard-user-info .cardealer-dashboard-user-info--profile-title {text-transform: capitalize; font-size: 18px; font-weight: 600; line-height: normal; margin-top: 15px; margin-bottom: 5px; word-break: break-all; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-user-info .cardealer-dashboard-user-info--profile-title:hover {color: #db2d2e;}
+.cardealer-dashboard-user-info .cardealer-dashboard-user-info--profile-type {display: block; color: #db2d2e;}
+.cardealer-dashboard-user-info .cardealer-dashboard-user-info--profile-email {word-break: break-all;}
+.cardealer-userdash .cardealer-dashboard-user-social-profiles,
+.cardealer-dashboard-user-info .cardealer-dashboard-user-social-profiles {padding: 0; margin: 0; list-style-type: none;     display: flex; justify-content: center; align-items: center; grid-gap: 13px; margin-top: 10px;}
+.cardealer-userdash .cardealer-dashboard-user-social-profiles li a,
+.cardealer-dashboard-user-info .cardealer-dashboard-user-social-profiles li a {font-size: 15px; line-height: 15px;}
+.cardealer-userdash .cardealer-dashboard-user-social-profiles li a:hover,
+.cardealer-dashboard-user-info .cardealer-dashboard-user-social-profiles li a:hover {color: #323232;}
+
+/* Left Navigation */
+.cardealer-dashboard-navigation ul {padding: 0; margin: 0 -15px; list-style-type: none;}
+.cardealer-dashboard-navigation li a {display: flex; align-items: center; padding: 10px 15px; color: inherit; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-navigation li.is-active a {color: #db2d2e;}
+.cardealer-dashboard-navigation li a i {min-width: 35px; font-size: 16px;}
+.cardealer-dashboard-navigation li a:hover {background: #f8f8f8; border-radius: 3px;}
+
+/*----------------------*/
+/* Right - Header Area */
+/*----------------------*/
+.cardealer-dashboard-wrapper .cardealer-dashboard-content {width: 100%; padding: 40px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content-header {display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #eeeeee; padding-bottom: 40px; margin-bottom: 40px;}
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-add-car {display: inline-block; background: #db2d2e; color: #ffffff; padding: 10px 25px; border-radius: 3px; margin-right: 5px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-add-car i {padding-right: 7px;}
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-add-car:hover {background: #323232; color: #ffffff;}
+
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-logout {display: flex; align-items: center; color: inherit;}
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-logout i {width: 37px; height: 37px; display: flex; justify-content: center; align-items: center; font-size: 14px; border: 2px solid #e8e8e8; margin-left: 10px; border-radius: 30px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content-header .cardealer-dashboard-content-header-logout:hover i {border-color: #db2d2e; color: #db2d2e;}
+
+/* Title Area */
+.cardealer-dashboard-content .cardealer-dashboard-content-title {text-transform: capitalize; margin-bottom: 25px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper {display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-title {margin: 0;}
+.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting {display: flex; align-items: center; grid-gap: 10px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting form select {height: 40px; padding: 0 10px; min-width: 150px; outline: none;}
+
+/*----------------------*/
+/* CDFS Message */
+/*----------------------*/
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cdfs-message,
+.cardealer-userdash .cardealer-userdash-content .cdfs-message {background: #f5f5f5; padding: 15px 20px; margin-bottom: 20px; border-radius: 3px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cdfs-message-success,
+.cardealer-userdash .cardealer-userdash-content .cdfs-message-success {background: #d9f5df; color: #4b9b5a; border: 1px solid #cbe1d0; line-height: 24px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cdfs-message-error,
+.cardealer-userdash .cardealer-userdash-content .cdfs-message-error {list-style-type: none; padding: 0; background: none;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cdfs-message-error li,
+.cardealer-userdash .cardealer-userdash-content .cdfs-message-error li {background: #ffe8e8; color: #a94347; border: 1px solid #ecd3d6; padding: 15px 20px; border-radius: 3px; line-height: 24px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cdfs-message-error li ~ li,
+.cardealer-userdash .cardealer-userdash-content .cdfs-message-error li ~ li {margin-top: 10px;}
+
+/*========================*/
+/* Dashboard */
+/*========================*/
+.cardealer-dashboard-content .dashboard-content-inner {display: flex; grid-gap: 30px; flex-wrap: wrap;}
+.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item {width: calc(33.3333% - 20px);}
+.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item a {width: 100%; border: 2px solid #eeeeee; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 16px; color: inherit; padding: 60px 30px; border-radius: 7px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item .dashboard-item-icon {width: 85px; height: 85px; background: #f9f9f9; font-size: 30px; color: #db2d2e; display: flex; justify-content: center; align-items: center; border-radius: 100px;}
+.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item .dashboard-item-title {display: block; text-align: center; width: 100%; margin-top: 15px;}
+.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item a:hover {border-color: #db2d2e;}
+
+/*========================*/
+/* My Item / My Wishlist */
+/*========================*/
+.cardealer-dashboard-content .cardealer-dashboard-content-grid {position: relative; border: 1px solid #e8e8e8; padding: 20px; border-radius: 3px; margin-bottom: 30px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid.loading:before {content: ""; position: absolute; left: 0; right: 0;
+		top: 0; bottom: 0; background-color: rgba(255,255,255,0.8); z-index: 2;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid.loading:after {content: ""; background-image: url('../images/cd_loader.svg');  background-position: center center; background-attachment: inherit; background-size: cover;
+		background-repeat: no-repeat; height: 50px; width: 50px; position: absolute; top: 50%; left: 50%; z-index: 2;  margin-top: -25px;
+		margin-left: -25px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid:hover {border-color: #db2d2e;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid:last-child {margin-bottom: 0;}
+
+/* Left Car Image */
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item {position: relative; overflow: visible; min-height: inherit; width: 100%;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cdfs-remove-wishlist {width: 20px; height: 20px; background: #db2e2d; color: #ffffff; display: flex; justify-content: center; align-items: center;border-radius: 50px; position: absolute; right: -6px; top: -6px; z-index: 1;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cdfs-remove-wishlist span {
+	display: block;
+	height: 20px;
+	line-height: 18px;
+	font-size: 13px;
+	width: 20px;
+	text-align: center;
+}
+
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cardealer-list-item-overlay {position: absolute; bottom: 0px; left: 10px; right: 10px; opacity: 0; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid:hover .cardealer-list-item .cardealer-list-item-overlay {bottom: 10px; opacity: 1;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cardealer-list-item-overlay a {background: #db2e2d; color: #ffffff; display: block; font-size: 13px; text-transform: uppercase; text-align: center; padding: 5px 10px; border-radius: 3px;}
+
+/* Right Content */
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-title {margin-bottom: 15px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-title a {display: inline-block; font-size: 18px; color: #323232; font-weight: 700; margin-bottom: 15px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-title a:hover {color: #db2d2e;}
+
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .car-price {margin-bottom: 15px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .car-price .old-price {font-size: 16px; font-weight: 600; text-decoration: line-through; padding-right: 7px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .car-price .new-price {font-size: 20px; font-weight: 600; color: #db2e2d;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .car-buy-online-btn {margin-top:0; margin-bottom: 15px;}
+.cardealer-dashboard-content .cardealer-list-items-attributes ul {display: flex; flex-wrap: wrap; grid-gap: 5px; margin: 0; padding: 0;}
+.cardealer-dashboard-content .cardealer-list-items-attributes .cardealer-list-item-attribute {font-size: 13px; border: 1px solid #e8e8e8;
+		padding: 4px 8px;}
+.cardealer-dashboard-content .cardealer-list-items-attributes .cardealer-list-item-attribute i {margin-right: 5px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .car-price > p {background: #323232; color: #ffffff; font-style: italic;
+    font-size: 13px; position: relative; top: -2px; padding: 0px 10px 0px 5px; border-radius: 2px;display: inline-block; margin: 0; margin-left: 5px;}
+
+/* Right Bottom Content */
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom {display: flex;	justify-content: space-between;	background: #fbfbfb; border-top: 1px solid #e8e8e8; padding: 17px 25px; margin-left: -20px; margin-right: -20px;
+		margin-top: 20px; margin-bottom: -20px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom-actions {display: flex; grid-gap: 5px 17px; list-style-type: none;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom-actions li a {color: inherit;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom-actions li a:hover {color: #db2d2e;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom-actions i {margin-right: 6px; color: #db2e2d;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom .car-status {display: flex;
+		align-items: center; flex: none; margin:0; margin-left:15px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom .car-status span {padding-right: 5px; color: #323232;}
+
+.cardealer-dashboard-content .cardealer-list-items-bottom .car-type {margin-left: auto;}
+.cardealer-dashboard-content .cardealer-list-items-bottom .car-type span {background: #002b89; padding: 3px 8px; border-radius: 3px;
+	color: #ffffff; font-size: 13px; font-weight: 600;}
+
+/* Wishlist Loader */
+.cardealer-dashboard-content .cardealer-list-items-bottom .pgs_wishlist.loading i {animation: rotation 2s infinite linear; font-weight: 900;}
+.cardealer-dashboard-content .cardealer-list-items-bottom .pgs_wishlist.loading i:before {content: "\f110";}
+.cardealer-dashboard-content .cardealer-list-items-bottom .pgs_wishlist.added-wishlist i {font-weight: 600;}
+
+@keyframes rotation {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+/* List Item Featured */
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-featured .advertise-item {z-index:2; display: flex; justify-content: center; align-items: center; background: #969696; color: #ffffff; padding: 8px 12px; font-size: 13px; border-radius: 3px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-featured .advertise-item-color-gray {background: #969696;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-featured .advertise-item-color-yellow {background: #fbb534;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-featured .advertise-item-color-green {background: #1fca52;}
+
+/* List Item View Statistics */
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-meta-tools  {position: absolute; left: 8px; top: 8px; z-index: 2;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-meta-tools .cardealer-list-item-view-statistics {margin-bottom: 5px;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-view-statistics .item-view-statistics {display: flex; justify-content: center; align-items: center; min-width: 38px; background: #db2d2e; color: #ffffff; padding: 5px 8px; font-size: 12px; line-height: 14px; font-weight: 600; border-radius: 3px; transition: all 0.3s ease-in-out;}
+.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-view-statistics .item-view-statistics i {padding-right: 2px;}
+
+/* Statistics PopUp */
+#item-view-statistic-model .modal-content-container {max-width: 900px; margin: 80px auto; border-radius: 5px; overflow: hidden;}
+#item-view-statistic-model .modal-header {position: relative; background: #ffffff; border-bottom: 1px solid #e8e8e8; padding: 15px 20px;}
+#item-view-statistic-model .modal-header .close_model {position: absolute; top: 17px; right: 15px; font-size: 28px; color: #969696; padding: 0; background: none; border: none;}
+#item-view-statistic-model .modal-header h2 {text-transform: capitalize; font-size: 18px; line-height: 30px; margin: 0;}
+#item-view-statistic-model .modal-content {box-shadow: none; border: none;}
+#item-view-statistic-model .modal-content .modal-body {padding: 20px;}
+#item-view-statistic-model .vehicle-statistics-options {margin-bottom: 10px;}
+#item-view-statistic-model .vehicle-statistics-options select {width: 300px; max-width: inherit; min-width: auto; background: #fbfbfb; border: 2px solid #e8e8e8; color: inherit; border-radius: 3px;}
+
+/* Pagination */
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cardealer-pagination,
+.cardealer-userdash .cardealer-userdash-content .cardealer-pagination {display: flex; justify-content: space-between; grid-gap:10px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cardealer-pagination .cardealer-button,
+.cardealer-userdash .cardealer-userdash-content .cardealer-pagination .cardealer-button {padding: 5px 20px; border-radius: 3px;}
+.cardealer-dashboard-wrapper .cardealer-dashboard-content .cardealer-pagination .cardealer-button--next,
+.cardealer-userdash .cardealer-userdash-content .cardealer-pagination .cardealer-button--next {margin-left: auto;}
+
+/*========================*/
+/*  My Subscriptions */
+/*========================*/
+.cardealer-dashboard-content .cardealer-dashboard-subs-wrapper {border: 2px solid #f2f2f2; padding: 15px 30px; border-radius: 7px;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table th,
+.cardealer-dashboard-content .cardealer-dashboard-subs-table td {border: none; border-bottom: 1px solid #e8e8e8; padding: 17px 0;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table th {text-transform: uppercase; color: #323232; font-size: 13px;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody tr:last-child td {border-bottom: none;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table td.woocommerce-orders-table__cell-subscription-id a {color: #323232;
+		font-weight: 600;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table td.woocommerce-orders-table__cell-subscription-id a:hover {color: #db2d2e;}
+.cardealer-dashboard-content .cardealer-dashboard-subs-table td.woocommerce-orders-table__cell-subscription-actions .button {padding: 3px 15px; border-radius: 3px;}
+
+/*========================*/
+/*  My Profile */
+/*========================*/
+.cardealer-dashboard-content .cdfs-edit-account-form fieldset {margin-bottom: 40px;}
+.cardealer-dashboard-content .cdfs-edit-account-form legend {font-weight: 600; color: #363636; text-transform: capitalize; letter-spacing: 0; border-bottom: 1px solid #e8e8e8; padding-bottom: 15px; margin-bottom: 30px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row {display: flex; align-items: center; width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row:last-child {margin-bottom: 0;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row label,
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .profile-image-preview {width: 35%; flex: none; margin: 0; padding: 0; padding-right: 20px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row label.cdfs-label-top {align-self: flex-start; padding-top: 10px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input-wrap {width: 100%;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input,
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row select {border: 2px solid #e8e8e8; color: inherit; outline:none; border-radius: 3px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input:focus,
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input:focus-visible,
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row select:focus {outline:none; border-color: #db2d2e;}
+
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input-description {font-size: 13px; margin-top: 5px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row #dealer-location-map {margin-top: 10px;}
+
+/* Image Browse */
+.cardealer-dashboard-content .cdfs-edit-account-form .profile-image-preview .cdfs-img-select-preview-wrapper {width: 90px; height: 90px; margin-top: 30px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .profile-image-preview .cdfs-img-select-preview-wrapper img {width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover;}
+.cardealer-dashboard-content .cdfs-edit-account-form .profile-image-info {width: 100%; margin-top: 10px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .profile-image-info label {width: 100%; margin: 0; margin-bottom: 10px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload {border: 2px dashed #e8e8e8; padding: 20px; border-radius: 7px; position: relative; display: flex;  align-items: center;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-image {flex: none; text-transform: uppercase; padding: 8px 20px; border-radius: 3px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-file-info {padding-left: 15px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-file-info .select-file-label {font-weight: 600; color: #323232; word-break: break-all;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-file-info .select-file-note {font-size: 13px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload input {position: absolute; width: 100%; height: 100%; top: 0; left: 0; cursor: pointer; opacity: 0;}
+
+/* Setting Checkbox */
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input-checkbox-wrap {width: 100%; display: flex; flex-wrap: wrap; align-items: center;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input-checkbox-wrap .profile-setting-checkbox {padding-right: 10px;}
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .cdfs-input-checkbox-wrap > span {font-size: 13px; padding: 5px 0;}
+
+.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .setting-checkbox {width: auto; padding: 0; margin: 0;}
+.cardealer-dashboard-content .cdfs-edit-account-form .setting-checkbox input {opacity: 0; position: absolute; z-index: -1;}
+.cardealer-dashboard-content .cdfs-edit-account-form .setting-checkbox span {position: relative; display: inline-block; width: 47px; height: 23px; background-color: #f5f5f5; border: 1px solid #ddd;  border-radius: 100px; transition: all .5s; box-shadow: 1px 2px 3px rgba(0,0,0,0.1) inset; vertical-align: top;}
+.cardealer-dashboard-content .cdfs-edit-account-form .setting-checkbox span:after {content: ""; position: absolute; background-color: #fff; top: 2px; left: 2px; height: 17px; width: 17px; border: 1px solid #ddd; border-radius: 400px; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); -webkit-transition: all .2s;}
+.cardealer-dashboard-content .cdfs-edit-account-form .setting-checkbox input:checked + span {background-color: #db2d2e; border-color: #db2d2e; transition: all .5s;}
+.cardealer-dashboard-content .cdfs-edit-account-form .setting-checkbox input:checked + span:after {left: 25px; transition: all .2s;}
+
+/*========================================*/
+/*  User Profile */
+/*========================================*/
+.cardealer-userdash.cardealer-userdash-type-user .cardealer-userdash-header {border: none; border-bottom: 1px solid #e8e8e8; border-radius: inherit; padding-bottom: 30px;}
+.cardealer-userdash.cardealer-userdash-type-user .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-avatar-wrap {margin: 0; top: 0;}
+.cardealer-userdash.cardealer-userdash-type-user .cardealer-userdash-header .cardealer-userdash-userinfo img {width: 100px; height: 100px; border-width: 4px;}
+.cardealer-userdash.cardealer-userdash-type-user .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-details {align-self: center; margin-top: 0;}
+
+/*========================================*/
+/* Dealer Profile  */
+/*========================================*/
+.content-wrapper .cardealer-userdash {background-color: #ffffff; padding: 30px; border-radius: 3px; box-shadow: 0 7px 30px rgba(0,0,0,0.05);}
+.cardealer-userdash .cardealer-userdash-header {border: 2px solid #eeeeee; margin-bottom: 60px; border-radius: 7px;}
+.cardealer-userdash .cardealer-userdash-header img {max-width: 100%; height: auto;}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo {display: flex; align-items: center;}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-avatar-wrap {margin-left: 40px; position: relative; top: -40px;}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-details {align-self: flex-start; line-height: 16px; margin-top: 25px; margin-left: 20px;}
+
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo img {border: 5px solid #ffffff; width: 140px; height: 140px; box-shadow: 0 5px 25px rgba(0,0,0,0.06);}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-detail-name {text-transform: capitalize; font-size: 20px; font-weight: 600; line-height: normal; margin-bottom: 5px; transition: all 0.3s ease-in-out;}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-detail-usertype {display: block;}
+.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-details .cardealer-dashboard-user-social-profiles {justify-content: flex-start;}
+
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons {display: flex; grid-gap: 7px; margin-left: auto; margin-right: 30px;}
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons .cardealer-userdash-btn {padding: 8px 25px;  font-weight: 500; border: 1px solid #db2d2e; border-radius: 3px;}
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons .cardealer-userdash-btn i {margin-right: 8px;}
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons .cardealer-userdash-btn-white:hover,
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons .cardealer-userdash-btn-red {background: #db2d2e; color: #ffffff;}
+.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons .cardealer-userdash-btn-red:hover {background: #323232; border-color: #323232;}
+
+/*-------------------------*/
+/* Dealer Profile Tabs */
+/*-------------------------*/
+.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs {display: flex; flex-wrap: wrap; grid-gap: 5px; padding: 0 10px; border: none; overflow: hidden; position: relative;}
+.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs:before {content: ""; position: absolute; width: 100%; bottom: 0;
+left: 0; border-bottom: 2px solid #f2f2f2;}
+.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li a {background: #f7f7f7; color: inherit; padding: 15px 35px 17px 35px; border: none; border-top: 3px solid #eeeeee;  margin: 0; border-radius: 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li a i { margin-right:5px; }
+.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li.active a {background: #ffffff; color: #db2d2e; border: none; border-top: 3px solid #db2d2e; box-shadow: 0 3px 10px rgb(0 0 0 / 10%);}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .tab-content {padding-top: 35px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .tab-content .cardealer-userdash-tab-content-header h3 {text-transform: capitalize; font-size: 24px; line-height: 36px; margin: 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .tab-content .cardealer-userdash-tab-content-header {display: flex; margin-bottom: 25px;}
+
+/* Listing : Grid -------*/
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch {display: flex; flex-wrap: wrap; margin-top: -30px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-item {height: calc(100% - 30px); border: 1px solid #e3e3e3; vertical-align: top; margin-top: 30px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-vehicle-review-stamps {display: flex; flex-wrap: wrap; justify-content: center; grid-gap: 15px; margin-top: 15px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-vehicle-review-stamps .vehicle-review-stamp-link {margin: 0; padding: 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-vehicle-review-stamps img {width: auto; height: 23px; margin: 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch + .cardealer-pagination {margin-top: 25px;}
+
+/* Listing : List -------*/
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid {border: 1px solid #e3e3e3; padding: 15px; margin-top: 30px; margin-left: 15px; margin-right: 15px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid {width: 100%;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-item {border: none; margin: 0; min-height: inherit;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-title a {display: inline-block; position: relative; width: 100%; font-size: 18px; color: #323232; font-weight: 700; padding-right: 110px; padding-bottom: 10px; margin-bottom: 15px; transition: all 0.3s ease-in-out;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-title a:hover {color: #db2d2e;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-title a:before {position: absolute; content: ""; width: 20px; height: 2px; background: #db2d2e; left: 0; bottom: 0px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-price + a.button,
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-buy-online-btn + a.button {padding: 3px 20px; position: absolute; top: 0; right: 15px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-vehicle-review-stamps {justify-content: flex-start; margin: 15px 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-vehicle-review-stamps img {height: 35px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-list ul {margin: 0; margin-top: 20px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-list ul li {border: 1px solid #e3e3e3; padding: 5px 10px; font-size: 12px; margin-right: 5px;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .style-classic .price span.old-price {display: block; font-size: inherit;     font-weight: inherit;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-details .cardealer-lead-form-req-price-btn {display: inline-block;
+    margin: 0;}
+.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-details .button {
+    padding: 3px 20px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+/*-------------------------*/
+/* Review */
+/*-------------------------*/
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cardealer-userdash-tab-content-data {display: flex; flex-wrap: wrap;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-left {width: 30%; background: #fbfbfb; border: 2px solid #e8e8e8;
+padding: 35px; border-radius: 12px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right {width: 70%; padding-left: 40px;}
+
+/* Rating */
+.cdfs-dealer-average-rating-html .cdfs-star-ratings {display: inline-block; unicode-bidi: bidi-override; color: #f8b700; width: 79px; font-size: 64px; position: relative;  margin: 0; padding: 0;}
+.cdfs-dealer-average-rating-html .cdfs-star-ratings .fill-ratings {padding: 0; position: absolute; z-index: 1; display: block; top: 0; left: 0; overflow: hidden;}
+.cdfs-dealer-average-rating-html .cdfs-star-ratings .fill-ratings span i {font-weight: 600;}
+.cdfs-dealer-average-rating-html .cdfs-star-ratings span {display: flex; font-size: 14px;}
+.cdfs-dealer-average-rating-html .cdfs-star-ratings .empty-ratings {display: block; padding: 0; z-index: 0;}
+
+/* Reviews Left */
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating {text-align: center; margin-bottom: 30px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating .cdfs-dealer-average-rating-heading {text-transform:capitalize; }
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-numbers .cdfs-rating {font-size: 90px; color: #323232; font-weight: 700; line-height: 80px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-numbers .cdfs-outoff-rating {font-size: 30px; color: #323232; font-weight: 700; line-height: normal;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating .cdfs-dealer-average-rating-html {margin: 10px 0;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating .cdfs-star-ratings {width: 113px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating .cdfs-star-ratings span {font-size: 20px;}
+
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-item {border-bottom: 1px solid #e8e8e8; padding-bottom: 10px; margin-bottom: 10px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-item .cdfs-dealer-average-rating-heading {display: flex; align-items: center; justify-content: space-between; padding-bottom: 5px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-heading .cdfs-dealer-rating-label {color: #323232; font-weight: 600;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-heading span {color: #323232;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-recommendations {display: flex; flex-wrap: wrap; grid-gap: 0 15px; color: #323232;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-recommendations .cdfs-dealer-recommendations-label {width: 100%; color: #323232; font-weight: 600; margin-bottom: 10px;}
+
+/* Reviews Right */
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-review-data-inner {display: flex;     align-items: center; margin-bottom: 20px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-review-data-inner h5 {text-transform: capitalize; margin: 0; margin-right: 5px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-review-data-inner span {color: #db2d2e;
+		font-weight: 600;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .all-cars-list-arch {margin-top: 0;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-single-review {width: 100%; border-bottom: 1px solid #e8e8e8; margin-bottom: 15px; padding-bottom: 15px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-single-review:last-child {border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-single-review .cdfs-dealer-average-rating-html .cdfs-ratings-average {color: #323232; margin-left: 8px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-single-review .cdfs-single-label {color: #323232; font-weight: 600; margin-top: 10px; margin-bottom: 5px;}
+.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right .cdfs-single-review p {margin-bottom: 0;}
+
+/*-------------------------*/
+/* Write A Review */
+/*-------------------------*/
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-dealer-review-notice {margin-bottom: 30px;  border: 1px solid #f3ebd8;
+		border-left: 3px solid #f3b817; padding: 18px 25px;  box-shadow: 0 3px 10px rgb(0 0 0 / 3%); color: #c3a13d; background: #fffaec;
+		border-radius: 3px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-dealer-review-form .cdfs-form-button {width: 100%; margin-top: 30px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-row-full {display: flex; width: 100%; margin-bottom: 25px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-row-full:last-child {margin-bottom: 0;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input-label {display: block; width: 300px; flex: none;
+		margin: 0; padding: 0; padding-right: 20px; align-self: center;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-label-top {align-self: flex-start; padding-top: 10px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input-wrap {width: 100%;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input {width: 100%; padding: 12px 18px; display: inline-block; border: 2px solid #e8e8e8; color: inherit; border-radius: 3px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input:focus,
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input:focus-visible {outline:none; border-color: #db2d2e;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-radio-group-wrap {display: flex; flex-wrap: wrap;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-radio-group {display: flex; align-items: center;
+		margin-right: 20px;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-radio-group label {margin: 0; margin-left: 7px;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating {border: none; display: flex; flex-direction: row-reverse; justify-content: flex-end;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating > input {display: none;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating > label {cursor: pointer; margin: 0; padding-right: 1px; color: #f8b700;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating:not(:checked) > label:hover > i,
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating > input:checked ~ label > i,
+.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-rating-group .rating:not(:checked) > label:hover ~ label > i {font-weight: 600;}
+
+/*-------------------------*/
+/* Contact Tab */
+/*-------------------------*/
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-form-control-wrap > .wpcf7-form-control {background: #ffffff; width: 100%; height: auto; padding: 12px 18px; font-size: inherit; font-weight: inherit; line-height: inherit; border: 2px solid #e8e8e8; color: inherit; border-radius: 3px; transition: inherit;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-form-control-wrap > .wpcf7-form-control:focus {border-color: #db2d2e;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-submit {border-radius: 3px; padding: 12px 30px; width: auto;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-form-control-wrap > .wpcf7-form-control::placeholder {color: inherit;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-form-control-wrap > .wpcf7-form-control:-ms-input-placeholder {color: inherit;}
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .wpcf7-form-control-wrap > .wpcf7-form-control::-ms-input-placeholder  {color: inherit;}
+
+.cardealer-userdash-content .cardealer-userdash-tabs .cardealer-userdash-tab-content .wpcf7-form .contact-form.appointment-form .form-group {margin-bottom: 0;}
+
+/*===================================================*/
+/* Responvie View */
+/*===================================================*/
+@media (max-width: 992px){
+
+	.content-wrapper .cardealer-dashboard-wrapper {flex-wrap: wrap; background-color: inherit; box-shadow: none;}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-sidebar {width: 100%; padding: 30px; background-color: #ffffff; border-right: none; box-shadow: 0 7px 30px rgba(0,0,0,0.05);}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content {margin-top: 30px; padding: 30px; background-color: #ffffff; box-shadow: 0 7px 30px rgba(0,0,0,0.05);}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content-header {padding-bottom: 30px; margin-bottom: 30px;}
+
+	/*--------------------------*/
+	/*  My Item / My Wishlist */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .row > .col-md-12 {float: left; width: 100%;}
+
+	/* Item View Statistic Model */
+	#item-view-statistic-model .modal-content-container {max-width: 650px;}
+	#item-view-statistic-model .vehicle-statistics-options select {width: 250px;}
+
+	/*--------------------------*/
+	/* Dealer Profile  */
+	/*--------------------------*/
+	.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo {flex-wrap: wrap;}
+	.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons {width: 100%; flex-wrap: wrap; margin-left: 30px; margin-bottom: 30px;}
+
+	.cardealer-userdash-type-user .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons {margin: 0;
+		margin-top: 30px;}
+
+	/*-------------------------*/
+	/* Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-left {width: 40%;}
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right {width: 60%;}
+
+	/*-------------------------*/
+	/* Write A Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input-label {width: 260px;}
+}
+
+@media (max-width: 767px){
+
+	.cardealer-dashboard-wrapper .cardealer-dashboard-sidebar {padding: 25px;}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content {padding: 25px; margin-top: 25px;}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content-header {padding-bottom: 25px; margin-bottom: 25px;}
+
+	/*--------------------------*/
+	/*  User Login */
+	/*--------------------------*/
+	#cdfs_user_login {display: block;}
+	#cdfs_user_login .cdfs_login {margin-bottom: 40px;}
+	.cdfs-reset-password-form {width: 100%;}
+
+	/*--------------------------*/
+	/*  Dashboard */
+	/*--------------------------*/
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content-header {padding-bottom: 25px; margin-bottom: 25px;}
+	.cardealer-dashboard-content-header .cardealer-dashboard-content-header-add-car {padding: 8px 20px; margin: 5px 0;
+		margin-right: 5px;}
+	.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item {width: calc(50% - 20px);}
+
+	/*--------------------------*/
+	/*  My Subscriptions */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table thead {display: none;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody tr {display: block; border-bottom: 2px solid #f2f2f2; padding-bottom: 15px; margin-bottom: 15px;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody tr:last-child {border-bottom: none; padding-bottom: 0;
+		margin-bottom: 0;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody td {display: flex; align-items: center; border-bottom: none; padding: 7px 0;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody td:before {content: attr(data-title); min-width: 180px; text-transform: uppercase; color: #323232; font-size: 13px; font-weight: 600;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table td.woocommerce-orders-table__cell-subscription-id a {color: inherit; font-weight: normal;}
+
+	/*--------------------------*/
+	/*  My Item / My Wishlist */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid {padding: 15px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cardealer-list-item-overlay {bottom: 10px;
+		opacity: 1;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item {margin-bottom: 25px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .row > .col-md-12 {float: none; width: auto;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom {flex-wrap: wrap; justify-content: inherit; grid-gap: 15px 0; margin-left: -15px; margin-right: -15px; margin-bottom: -15px; padding: 20px 20px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom-actions {width:100%; flex-wrap:wrap;}
+	.cardealer-dashboard-content .cardealer-list-items-bottom .car-type {margin-left: 0;}
+	.cardealer-dashboard-content .cardealer-list-items-bottom .car-type span{margin-right: 15px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-items-bottom .car-status {margin-left: 0;}
+
+	/* List Item Featured */
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item-featured .advertise-item {opacity: 1; }
+
+	/* Item View Statistic Model */
+	#item-view-statistic-model .modal-content-container {max-width: inherit; margin: 80px 15px;}
+	#item-view-statistic-model .vehicle-statistics-options select {width: 100%;}
+
+	/*--------------------------*/
+	/*  My Profile */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row {flex-wrap: wrap;}
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row label,
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-form-row .profile-image-preview {width: 100%; padding-right: 0; margin-bottom: 15px;}
+	.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-details .cardealer-dashboard-user-social-profiles {justify-content: center;}
+
+	/*--------------------------*/
+	/* Dealer Profile  */
+	/*--------------------------*/
+	.content-wrapper .cardealer-userdash {padding: 25px;}
+	.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo {margin-top: -20px;}
+	.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-avatar-wrap { margin-left: 0;
+		top: 0; width: 100%; text-align: -webkit-center;}
+		.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-details {align-self: flex-start;
+		margin-top: 10px; margin-left: 0; width: 100%; text-align: center;}
+	.cardealer-userdash-header .cardealer-userdash-userinfo .cardealer-userdash-buttons {width: 100%; flex-wrap: wrap; margin-left: 25px; margin-bottom: 25px; margin-top: 20px; justify-content: center;}
+	.cardealer-userdash .cardealer-userdash-header .cardealer-userdash-userinfo img {width: 90px; height: 90px; border: 4px solid #ffffff;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li a {padding: 10px 30px 13px 30px;}
+
+	/* Listing : Grid -------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-item {width: 100%;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .tab-content .cardealer-userdash-tab-content-header {flex-wrap: wrap;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .tab-content .cardealer-userdash-tab-content-header .cars-top-filters-box-right {width: 100%; margin-top: 15px;}
+
+	/* Listing : List -------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-details {margin-top: 20px;}
+
+	/*-------------------------*/
+	/* Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-left {width: 100%; margin-bottom: 30px;}
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-row-right {width: 100%; padding-left: 0;}
+
+	/*-------------------------*/
+	/* Write A Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-row-full {flex-wrap: wrap;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-form-row .cdfs-input-label {width: 100%; padding-right: 0; padding-bottom: 10px;}
+
+}
+
+@media (max-width: 479px){
+
+	/*--------------------------*/
+	/*  User Login */
+	/*--------------------------*/
+	#cdfs_user_login .cdfs_login,
+	#cdfs_user_login .cdfs_register,
+	.cdfs-reset-password-form {padding: 30px;}
+	.cdfs-form-login .cdfs-form__label-for-checkbox {margin-left: 0; margin-top: 10px;}
+
+	/*--------------------------*/
+	/*  Dashboard */
+	/*--------------------------*/
+	.cardealer-dashboard-content .dashboard-content-inner .dashboard-content-item {width: 100%;}
+	.cardealer-dashboard-wrapper .cardealer-dashboard-content-header {flex-wrap: wrap;}
+
+	/*--------------------------*/
+	/*  My Subscriptions */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody td {display: block;}
+	.cardealer-dashboard-content .cardealer-dashboard-subs-table tbody td:before {display: block; padding-bottom: 3px;}
+
+	/*--------------------------*/
+	/*  My Item / My Wishlist */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper {flex-wrap: wrap;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-title,
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting,
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting form,
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting form select {width: 100%;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-title-wrapper .cardealer-dashboard-content-sorting form {margin-top: 10px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-sorting .cardealer-dashboard-content-sorting-label {display: none;}
+
+	/*--------------------------*/
+	/*  My Profile */
+	/*--------------------------*/
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload {flex-wrap: wrap;}
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-image {width: 100%;}
+	.cardealer-dashboard-content .cdfs-edit-account-form .cdfs-image-upload .select-file-info {padding-left: 0; padding-top: 10px;}
+
+	/*--------------------------*/
+	/* Dealer Profile  */
+	/*--------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs {padding: 0;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li {width: 100%;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li a {padding: 13px 25px 10px 25px; text-align: center;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .nav-tabs li.active a {box-shadow: none;}
+
+	/* Listing : List -------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-title a {padding-right: 0;}
+	.cardealer-userdash-content .cardealer-userdash-tabs .all-cars-list-arch .car-grid .car-buy-online-btn + a.button {position: relative; top: auto; right: auto; float: none !important;}
+
+	/*-------------------------*/
+	/* Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-item .cdfs-dealer-average-rating-heading {flex-wrap: wrap;}
+	.cardealer-userdash-content .cardealer-userdash-tab-content-reviews .cdfs-dealer-average-rating-heading .cdfs-dealer-rating-label {width: 100%; margin-bottom: 5px;}
+
+	/*-------------------------*/
+	/* Write A Review */
+	/*-------------------------*/
+	.cardealer-userdash-content .cardealer-userdash-tabs .cdfs-row-half {width: 100%;}
+}
+
+@media (max-width: 445px){
+	.cardealer-dashboard-content-header .cardealer-dashboard-content-header-logout {margin-top: 15px;}
+}
+
+@media (max-width: 767px) and (min-width: 550px) {
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cardealer-list-item-image {height: 280px;}
+	.cardealer-dashboard-content .cardealer-dashboard-content-grid .cardealer-list-item .cardealer-list-item-image img {width: 100%;
+		height: 100%; -o-object-fit: cover; object-fit: cover;}
+}
